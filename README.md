@@ -2,11 +2,11 @@
 
 This mod pack is a compilation of several different mods for Mechassault, aimed at improving the overall playing experience. To install and play, it is recommended to download the latest release and follow the install guide.
 
-![](screenshots/Pic2.png)
+![](/Screenshots/Pic2.png)
 
 ## Mod Overview
 
-![](screenshots/Pic.png)
+![](/Screenshots/Pic.png)
 
 ## Install Guide
 
