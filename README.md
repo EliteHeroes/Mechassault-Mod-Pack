@@ -12,26 +12,26 @@ This mod pack is a compilation of several different mods for Mechassault, aimed 
 
 ### Pre-requisites
 
-* Need to acquire a copy of Mechassault. Either installed on a modded xbox or on PC
-* You'll also need download and install all of Mechassault's DLC for the best experience
+* Need to acquire a copy of Mechassault. Either installed on a modded Xbox or on a PC
+* You'll also need to download and install all of Mechassault's DLC for the best experience
 
 ### Installing
 
 1. Download the latest version of the Mod Pack from 'Releases'
-2. Open you're Mechassault game folder. For console you can do this using an FTP program to connect a modded xbox to PC
-3. Drag and drop the Mod Pack files into the Mechassault folder, agreeing to replace files
+2. Open your Mechassault game folder. For console, you can do this using an FTP program to connect a modded Xbox to a PC
+3. Drag and drop the Mod Pack files into the Mechassault folder, agreeing to replace the files
 4. And that's it! You'll now be able to select 'LAUNCH MODS' in the options menu of the game, or you can start the new N1Launch.xbe
 
 ### Help
 
-If you're having any problems with installing, feel free to leave a message in the help section of the [MechDonald's Discord](https://discord.gg/yKpHC5EPz)
+If you're having any problems with installing, feel free to leave a message in the help section on the [MechDonald's Discord](https://discord.gg/yKpHC5EPz)
 
 ## Mods Included
 
 * Base Mod
-    * Overhauls the balance of the game, as well as adds serveral new improvements throughout
+    * Fundamentals to get all mods to function, adding quality of life changes and new features
 * Rebalance
-    * Overhauls the balance of the game, as well as adds serveral new improvements throughout
+    * Overhauls the balance of the game as well as adds several new improvements throughout
 * Multiplayer Expanded
     * A huge number of new multiplayer maps have been added to a variety of game modes, including a new game called 'Kick It!'
 * Grinder Enhanced
