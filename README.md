@@ -4,10 +4,6 @@ This mod pack is a compilation of several different mods for Mechassault, aimed 
 
 ![](/Screenshots/Pic2.png)
 
-## Mod Overview
-
-![](/Screenshots/Pic.png)
-
 ## Install Guide
 
 ### Pre-requisites
@@ -29,13 +25,13 @@ If you're having any problems with installing, feel free to leave a message in t
 ## Mods Included
 
 * Base Mod
-    * Fundamentals to get all mods to function, adding quality of life changes and new features
+    * Fundamental changes to the base game, adding quality of life tweaks and improvements
 * Rebalance
-    * Overhauls the balance of the game as well as adds several new improvements throughout
+    * Overhauls the balance of the game, aimed at providing a more overall fun and fair experience
 * Multiplayer Expanded
     * A huge number of new multiplayer maps have been added to a variety of game modes, including a new game called 'Kick It!'
 * Grinder Enhanced
-    * Adds new versions of Grinder maps, aimed at providing a more overall fun experience
+    * Adds alternate versions of Grinder maps, with new friendly and enemy encounters
 
 ## For More Information
 
