@@ -13,10 +13,10 @@ This mod pack is a compilation of several different mods for Mechassault, aimed 
 
 ### Installing
 
-1. Download the latest version of the Mod Pack from 'Releases'
+1. Download the latest version of the Mod Pack from 'Releases' and uncompress 'Mechassault Mod Pack.zip'
 2. Open your Mechassault game folder. For console, you can do this using an FTP program to connect a modded Xbox to a PC
-3. Drag and drop the Mod Pack files into the Mechassault folder, agreeing to replace the files
-4. And that's it! You'll now be able to select 'LAUNCH MODS' in the options menu of the game, or you can start the new N1Launch.xbe
+3. Drag and drop all the files inside the 'Mod Pack' folder into the Mechassault game folder, agreeing to replace the files
+4. And that's it! You'll now be able to select 'LAUNCH MODS' in the options menu of the game, or you can start the game with the new N1Launch.xbe
 
 ### Help
 
