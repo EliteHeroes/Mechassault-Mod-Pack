@@ -310,7 +310,7 @@ Elemental:
  - Jump jet recharge rate increased from 0.9secs to 1.5sec
  - Jump jet speed increased from 20 to 25
  - Heat cool rate increased from 7 to 9
- - Now drops (small) health salavage on death (15T)
+ - Now drops (small) health salvage on death (15T)
 
 ------------------------------------------------------------------
 
@@ -330,7 +330,7 @@ Hybrid Armor:
  - AI SRM changed to standard mech SRMs
  - Max heat capacity increased from 20 to 80
  - Heat cool rate increased from 5 to 10
- - Now drops (small) health salavage on death (15T)
+ - Now drops (small) health salvage on death (15T)
 
 ------------------------------------------------------------------
 
@@ -345,7 +345,7 @@ Owens:
  - Max run speed increased from 45 to 48
  - Max heat capacity increased from 107 to 110
  - Heat cool rate increased from 10 to 11
- - Now drops ballistic salavage on death
+ - Now drops ballistic salvage on death
  - Knock-down chance decreased from 4.79 to 4.2
  - Leg health increased from 911 to 1076
  - Max health drop reduced from 35T to 20T
@@ -385,7 +385,7 @@ Raven:
  - Max health increased from 2600 to 3020
  - Max heat capacity increased from 107 to 110
  - Heat cool rate increased from 10 to 11
- - Now drops energy salavage on death
+ - Now drops energy salvage on death
  - Knock-down chance decreased from 4.79 to 4.2
  - Leg health increased from 773 to 1043
  - Max health drop reduced from 35T to 30T
@@ -432,7 +432,7 @@ Uller:
  - Knock-down chance decreased from 5 to 4.5
  - Leg health increased from 859 to 1057
  - Max health drop increased from 20T to 30T
- - Now drops energy salavage on death
+ - Now drops energy salvage on death
 
 ------------------------------------------------------------------
 
@@ -445,7 +445,7 @@ Kit Fox:
  - Knock-down chance decreased from 5 to 4.5
  - Leg health increased from 859 to 1057
  - Max health drop increased from 20T to 30T
- - Energy salavage on death changed to missile
+ - Energy salvage on death changed to missile
 
 ------------------------------------------------------------------
 
@@ -470,7 +470,7 @@ Puma:
  - Knock-down chance decreased from 4.74 to 4
  - Leg health increased from 837 to 1132
  - Max health drop increased from 20T to 35T
- - Now drops energy salavage on death
+ - Now drops energy salvage on death
 
 ------------------------------------------------------------------
 
@@ -587,7 +587,7 @@ Hellbringer:
  - Leg health increased from 1127 to 1249
  - Heat cool rate increased from 10 to 15
  - Max health drop increased from 50T to 65T
- - Ballistic salavage on death changed to missile
+ - Ballistic salvage on death changed to missile
 
 ------------------------------------------------------------------
 
@@ -641,7 +641,7 @@ Summoner:
  - Leg health increased from 1127 to 1263
  - Heat cool rate increased from 18 to 19
  - Max health drop decreased from 70T to 65T
- - Now drops missile salavage on death
+ - Now drops missile salvage on death
  
  ------------------------------------------------------------------
 
@@ -659,7 +659,7 @@ Salvage Drops:
 
 Weapon Loadout:
  - 2x Medium Laser
- - 2x Guass
+ - 2x Gauss
  - 2x LRM
 
 ------------------------------------------------------------------
@@ -692,7 +692,7 @@ Atlas:
  - Added getup/knockdown animation
  - 2xLRM change to 4xLRM
  - Heat cool rate increased from 17 to 18
- - Now drops missile salavage on death
+ - Now drops missile salvage on death
 
 ------------------------------------------------------------------
 
