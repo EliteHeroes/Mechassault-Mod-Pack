@@ -149,12 +149,12 @@ Flamer:
 	- Heat produced per shot: 6
 
  - Level 2
-	- Damage: 91
+	- Damage: 86
 	- Ammo: 60
 	- Heat produced per shot: 7
 
  - Level 3
-	- Damage: 117
+	- Damage: 112
 	- Ammo: 30
 	- Heat produced per shot: 7.5
 
