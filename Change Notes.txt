@@ -559,7 +559,7 @@ Bowman:
 
 ------------------------------------------------------------------
 
-(NEW) Longbow (Catapult/Bowman variant):
+(NEW) Hailstorm (Catapult/Bowman variant):
  - Cloak ability duration: 30secs | Recharge time: 15secs
  - Max health: 3825
  - Max run speed: 25
@@ -594,6 +594,7 @@ Hellbringer:
 Loki:
  - Cloak ability (35secs)
  - 2xPulse lasers change to 2xLasers
+ - 2xAuto cannon change to 3xAuto cannon
  - Max health increased from 3929 to 4055
  - Max heat capacity increased from 157 to 160
  - Leg health increased from 1127 to 1249
