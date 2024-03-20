@@ -143,13 +143,13 @@ Flamer:
  - Burst fire rate: 0.15
  - Engage range: 450
  - Max inaccuracy radius: 0.2
- - Projectile speed increased from 2000 to 2850
+ - Projectile speed: 2850
  - Level 1
 	- Damage: 65
 	- Heat produced per shot: 6
 
  - Level 2
-	- Damage: 86
+	- Damage: 88
 	- Ammo: 60
 	- Heat produced per shot: 7
 
@@ -319,12 +319,12 @@ Hybrid Armor:
  - Given target jammer ability (5secs)
  - 1xLaser change to 2xLaser
  - 2xSRM change to 1xLRM
- - Max health increased from 500 to 1250
+ - Max health increased from 500 to 1275
  - Max run speed increased from 16 to 22
  - Jump jet duration increased from 1.5secs to 3secs
  - Jump jet recharge rate increased from 0.8secs to 1.5sec
  - Jump jet speed increased from 20 to 25
- - Jump jet height limiter decreased from 1 to 0.9
+ - Jump jet height limiter decreased from 1 to 0.85
  - Level 2/3 weapon upgrades added
  - Elemental footprint sound added
  - AI SRM changed to standard mech SRMs
