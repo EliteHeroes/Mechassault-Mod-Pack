@@ -156,7 +156,7 @@ Flamer:
  - Level 3
 	- Damage: 112
 	- Ammo: 30
-	- Heat produced per shot: 7.5
+	- Heat produced per shot: 8
 
 ------------------------------------------------------------------
 
@@ -410,7 +410,7 @@ Corvus:
  - Max health: 3020
  - Max run speed: 42
  - Heat cooling rate: 11
- - Max heat capacity: 120
+ - Max heat capacity: 110
 
 Salvage Drops:
  - 30T Armor
