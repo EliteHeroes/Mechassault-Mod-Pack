@@ -13,6 +13,11 @@ Universal:
 Defensive Abilities:
 ------------------------------------------------------------------
 
+Target Jamming:
+ - Increased recharge time from 15secs to 20secs
+
+------------------------------------------------------------------
+
 AMS:
  - Increased recharge time from 10secs to 11secs
  - More mechs equipped with AMS ability
@@ -68,7 +73,7 @@ Misc:
 ------------------------------------------------------------------
 
 Forest Trees:
-- Health increased from 10000 to 1750
+- Health increased from 10000 to 750
 
 ------------------------------------------------------------------
 
@@ -139,24 +144,24 @@ Flamer:
 ------------------------------------------------------------------
 
 (NEW) Burst Laser:
- - Fire rate: 0.6
- - Burst fire rate: 0.15
- - Engage range: 450
+ - Fire rate: 0.75
+ - Burst fire rate: 0.07
+ - Engage range: 550
  - Max inaccuracy radius: 0.2
  - Projectile speed: 2850
  - Level 1
 	- Damage: 65
-	- Heat produced per shot: 6
+	- Heat produced per shot: 5
 
  - Level 2
 	- Damage: 88
 	- Ammo: 60
-	- Heat produced per shot: 7
+	- Heat produced per shot: 5.5
 
  - Level 3
 	- Damage: 112
 	- Ammo: 30
-	- Heat produced per shot: 8
+	- Heat produced per shot: 6
 
 ------------------------------------------------------------------
 
@@ -194,11 +199,11 @@ Autocannon:
  - Level 1
 	- Damage decreased from 100 to 92
 	- Heat reduced from 10 to 7.4
-	- Reload time reduced from 2secs to 1.65secs
+	- Reload time reduced from 2secs to 1.4secs
 
  - Level 2
 	- Heat reduced from 5.8 to 5.2
-	- Reload time reduced from 2secs to 1.725secs
+	- Reload time reduced from 2secs to 1.7secs
 	- Ammo increased from 20 to 26
 
  - Level 3
@@ -246,25 +251,27 @@ Javelin (LRM):
 ------------------------------------------------------------------
 
 (NEW) Mortar:
- - Fire rate: 2.0
- - Engage range: 450
+ - Fire rate: 2.5
+ - Engage range: 425
  - Max inaccuracy radius: 10
- - Splash damage radius: 25
  - Projectile time: 1.5secs (Estimate)
  - Level 1
 	- Direct hit damage: 175
 	- Splash damage: 155
+	- Splash damage radius: 30
 	- Heat produced per shot: 8
 
  - Level 2
 	- Direct hit damage: 200
 	- Splash damage: 180
-	- Ammo: 14
+	- Splash damage radius: 32.5
+	- Ammo: 12
 	- Heat produced per shot: 9
 
  - Level 3
 	- Direct hit damage: 225
 	- Splash damage: 205
+	- Splash damage radius: 35
 	- Ammo: 8
 	- Heat produced per shot: 10
 
@@ -304,7 +311,7 @@ Pilot With Weapon:
 
 Elemental:
  - Given Small AMS ability
- - Max health increased from 1012 to 1325
+ - Max health increased from 1012 to 1525
  - Max run speed increased from 16 to 22
  - Jump jet duration increased from 2secs to 3secs
  - Jump jet recharge rate increased from 0.9secs to 1.5sec
@@ -316,10 +323,10 @@ Elemental:
 
 Hybrid Armor:
  - Now has new alternate skins
- - Given target jammer ability (5secs)
+ - Given target jammer ability (5secs) | Recharge time = 15secs
  - 1xLaser change to 2xLaser
  - 2xSRM change to 1xLRM
- - Max health increased from 500 to 1275
+ - Max health increased from 500 to 1475
  - Max run speed increased from 16 to 22
  - Jump jet duration increased from 1.5secs to 3secs
  - Jump jet recharge rate increased from 0.8secs to 1.5sec
@@ -464,7 +471,7 @@ Cougar:
 
 Puma:
  - Max health increased from 2714 to 3240
- - Max heat capacity increased from 107 to 115
+ - Max heat capacity increased from 107 to 120
  - Jump jet duration increased from 5secs to 7secs
  - Heat cool rate increased from 10 to 12
  - Knock-down chance decreased from 4.74 to 4
@@ -594,7 +601,6 @@ Hellbringer:
 Loki:
  - Cloak ability (35secs)
  - 2xPulse lasers change to 2xLasers
- - 2xAuto cannon change to 3xAuto cannon
  - Max health increased from 3929 to 4055
  - Max heat capacity increased from 157 to 160
  - Leg health increased from 1127 to 1249
@@ -604,7 +610,7 @@ Loki:
 
 (NEW) Vortex (Hellbringer/Loki variant):
  - Target jammer ability duration: 7secs | Recharge time: 15secs
- - Max health: 4055
+ - Max health: 4135
  - Max run speed: 34
  - Heat cooling rate: 14
  - Max heat capacity: 160
@@ -660,7 +666,7 @@ Salvage Drops:
 
 Weapon Loadout:
  - 2x Medium Laser
- - 2x Gauss
+ - 1x Gauss
  - 2x LRM
 
 ------------------------------------------------------------------
@@ -708,8 +714,8 @@ Prometheus:
  - Cloak ability duration: 30secs | Recharge time: 15secs
  - Max health: 5300
  - Max run speed: 28
- - Heat cooling rate: 15
- - Max heat capacity: 190
+ - Heat cooling rate: 17
+ - Max heat capacity: 200
 
 Salvage Drops:
  - 100T Armor
@@ -719,7 +725,7 @@ Salvage Drops:
 
 Weapon Loadout:
  - 2x PPC
- - 2x Machine Gun
+ - 4x Machine Gun
  - 4x SRM
 
 ------------------------------------------------------------------
@@ -745,8 +751,8 @@ Ymir:
  - Alt Shield ability duration: 4secs | Recharge time: 8secs
  - Max health: 5075
  - Max run speed: 28
- - Heat cooling rate: 17
- - Max heat capacity: 200
+ - Heat cooling rate: 18
+ - Max heat capacity: 210
 
 Salvage Drops:
  - 100T Armor
