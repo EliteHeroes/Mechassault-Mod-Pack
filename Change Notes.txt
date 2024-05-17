@@ -197,7 +197,7 @@ Autocannon:
  - Max inaccuracy reduced from 0.573 to 0.5
  - Min inaccuracy reduced from 0.573 to 0.25
  - Level 1
-	- Damage decreased from 100 to 92
+	- Damage decreased from 100 to 88
 	- Heat reduced from 10 to 7.4
 	- Reload time reduced from 2secs to 1.4secs
 
