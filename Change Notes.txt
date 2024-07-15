@@ -1,4 +1,4 @@
-MechAssault - Rebalance Version 1.2.3
+MechAssault - Rebalance Version 1.2.4
 Provided by: MechDonald's
 Our Discord: https://discord.gg/yKpHC5EPzy
 **Change Notes**
@@ -14,7 +14,7 @@ Defensive Abilities:
 ------------------------------------------------------------------
 
 Target Jamming:
- - Increased recharge time from 15secs to 20secs
+ - Increased recharge time from 15secs to 18secs
 
 ------------------------------------------------------------------
 
@@ -251,7 +251,7 @@ Javelin (LRM):
 ------------------------------------------------------------------
 
 (NEW) Mortar:
- - Fire rate: 2.5
+ - Fire rate: 3.0
  - Engage range: 425
  - Max inaccuracy radius: 10
  - Projectile time: 1.5secs (Estimate)
@@ -316,6 +316,7 @@ Elemental:
  - Jump jet duration increased from 2secs to 3secs
  - Jump jet recharge rate increased from 0.9secs to 1.5sec
  - Jump jet speed increased from 20 to 25
+  - Max heat capacity increased from 65 to 70
  - Heat cool rate increased from 7 to 9
  - Now drops (small) health salvage on death (15T)
 
@@ -323,7 +324,7 @@ Elemental:
 
 Hybrid Armor:
  - Now has new alternate skins
- - Given target jammer ability (5secs) | Recharge time = 15secs
+ - Given target jammer ability (5secs) | Recharge time = 14secs
  - 1xLaser change to 2xLaser
  - 2xSRM change to 1xLRM
  - Max health increased from 500 to 1475
@@ -414,6 +415,7 @@ Corvus:
 
 (NEW) Talon (Raven/Corvus variant):
  - AMS ability duration: 4secs | Recharge time: 11secs
+ - Jump jet duration: 6secs
  - Max health: 3020
  - Max run speed: 42
  - Heat cooling rate: 11
@@ -434,8 +436,8 @@ Uller:
  - 1xSRM change to 2xSRM
  - Given 2xMachine gun
  - Max health increased from 2750 to 3085
- - Heat cool rate increased from 10 to 11
- - Max heat capacity increased from 100 to 110
+ - Heat cool rate increased from 10 to 12
+ - Max heat capacity increased from 100 to 120
  - Knock-down chance decreased from 5 to 4.5
  - Leg health increased from 859 to 1057
  - Max health drop increased from 20T to 30T
@@ -507,6 +509,25 @@ Uziel:
 
 ------------------------------------------------------------------
 
+(NEW) Mariel (Uziel/Belial variant):
+ - Cloak ability duration: 30secs | Recharge time: 15secs
+ - Jump jet duration: 6secs
+ - Max health: 3420
+ - Max run speed: 35
+ - Heat cooling rate: 14
+ - Max heat capacity: 135
+
+Salvage Drops:
+ - 50T Armor
+ - Missile Weapon
+
+Weapon Loadout:
+ - 2x Medium Laser
+ - 2x Machine Gun
+ - 2x Mortar
+
+------------------------------------------------------------------
+
 
 ------------------------------------------------------------------
 Heavy Mechs:
@@ -534,6 +555,7 @@ Mad Dog:
 
 (NEW) Jackal (Vulture/Mad Dog variant):
  - Cloak ability duration: 30secs | Recharge time: 15secs
+ - Jump jet duration: 5secs
  - Max health: 3725
  - Max run speed: 32
  - Heat cooling rate: 14
@@ -609,8 +631,8 @@ Loki:
 ------------------------------------------------------------------
 
 (NEW) Vortex (Hellbringer/Loki variant):
- - Target jammer ability duration: 7secs | Recharge time: 15secs
- - Max health: 4135
+ - AMS ability duration: 4secs | Recharge time: 11secs
+ - Max health: 4055
  - Max run speed: 34
  - Heat cooling rate: 14
  - Max heat capacity: 160
@@ -621,9 +643,9 @@ Salvage Drops:
  - Missile Weapon
 
 Weapon Loadout:
- - 1x PPC
- - 2x Autocannon
- - 3x Mortar
+ - 2x Medium Laser
+ - 2x Gauss
+ - 2x LRM
 
 ------------------------------------------------------------------
 
@@ -654,19 +676,19 @@ Summoner:
 
 (NEW) Thanatos (Thor/Summoner variant):
  - AMS ability duration: 4secs | Recharge time: 11secs
- - Max health: 4055
+ - Max health: 4135
  - Max run speed: 34
  - Heat cooling rate: 14
  - Max heat capacity: 160
 
 Salvage Drops:
  - 65T Armor
+ - Energy Weapon
  - Ballistic Weapon
- - Missile Weapon
 
 Weapon Loadout:
- - 2x Medium Laser
- - 1x Gauss
+ - 1x PPC
+ - 2x Autocannon
  - 2x LRM
 
 ------------------------------------------------------------------
