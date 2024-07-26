@@ -1,4 +1,4 @@
-MechAssault - Rebalance Version 1.2.4
+MechAssault - Rebalance Version 1.2.5
 Provided by: MechDonald's
 Our Discord: https://discord.gg/yKpHC5EPzy
 **Change Notes**
@@ -14,7 +14,8 @@ Defensive Abilities:
 ------------------------------------------------------------------
 
 Target Jamming:
- - Increased recharge time from 15secs to 18secs
+ - Decreased active time from 7secs to 6secs
+ - Increased recharge time from 15secs to 20secs
 
 ------------------------------------------------------------------
 
@@ -48,6 +49,11 @@ Rag Shield:
 Jump Jets:
 ------------------------------------------------------------------
 
+Mech Jump Jets:
+ - Heat reduced from 15 to 14
+
+------------------------------------------------------------------
+
 Elemental Jump Jets:
  - Heat reduced from 4 to 2
 
@@ -61,7 +67,7 @@ Animations:
 ------------------------------------------------------------------
 
 Getup/Knockdown:
- - Increased speed (same as Mechassault 2)
+ - Increased all mech get-up speed
 
 ------------------------------------------------------------------
 
@@ -70,6 +76,11 @@ Getup/Knockdown:
 
 ------------------------------------------------------------------
 Misc:
+------------------------------------------------------------------
+
+Mech Respawn Timer:
+- Time decreased from 4 to 3.8
+
 ------------------------------------------------------------------
 
 Forest Trees:
@@ -115,7 +126,7 @@ Pulse Laser:
 
  - Level 3
 	- Damage increased from 16 to 18
-	- Ammo increased from 67 to 74
+	- Ammo increased from 67 to 75
 
 ------------------------------------------------------------------
 
@@ -175,29 +186,29 @@ Machine Gun:
  - Min inaccuracy reduced from 1.45 to 0.82
  - Level 1
 	- Heat reduced from 1.1 to 0.8
-	- Damage decreased from 21 to 16
+	- Damage decreased from 21 to 17
 	- Reload time reduced from 0.3secs to 0.210secs
 
  - Level 2
 	- Heat reduced from 1.1 to 0.9
-	- Ammo increased from 67 to 84
-	- Damage decreased from 30 to 23
+	- Ammo increased from 67 to 85
+	- Damage decreased from 30 to 24
 	- Reload time reduced from 0.3secs to 0.235secs
 
  - Level 3
 	- Heat reduced from 1.1 to 1.0
-	- Ammo increased from 34 to 47
-	- Damage decreased from 38 to 30
+	- Ammo increased from 34 to 50
+	- Damage decreased from 38 to 31
 	- Reload time reduced from 0.3secs to 0.260secs
 
 ------------------------------------------------------------------
 
 Autocannon:
- - Projectile speed increased from 2000 to 2300
+ - Projectile speed increased from 2000 to 2500
  - Max inaccuracy reduced from 0.573 to 0.5
  - Min inaccuracy reduced from 0.573 to 0.25
  - Level 1
-	- Damage decreased from 100 to 88
+ 	- Damage decreased from 100 to 95
 	- Heat reduced from 10 to 7.4
 	- Reload time reduced from 2secs to 1.4secs
 
@@ -207,7 +218,7 @@ Autocannon:
 	- Ammo increased from 20 to 26
 
  - Level 3
-	- Damage increased from 180 to 192
+	- Damage increased from 180 to 195
 	- Heat reduced from 4.4 to 4.1
 	- Reload time reduced from 2secs to 1.8secs
 	- Ammo increased from 15 to 21
@@ -251,27 +262,27 @@ Javelin (LRM):
 ------------------------------------------------------------------
 
 (NEW) Mortar:
- - Fire rate: 3.0
+ - Fire rate: 2.5
  - Engage range: 425
  - Max inaccuracy radius: 10
  - Projectile time: 1.5secs (Estimate)
  - Level 1
 	- Direct hit damage: 175
 	- Splash damage: 155
-	- Splash damage radius: 30
+	- Splash damage radius: 26
 	- Heat produced per shot: 8
 
  - Level 2
 	- Direct hit damage: 200
 	- Splash damage: 180
-	- Splash damage radius: 32.5
+	- Splash damage radius: 28
 	- Ammo: 12
 	- Heat produced per shot: 9
 
  - Level 3
 	- Direct hit damage: 225
 	- Splash damage: 205
-	- Splash damage radius: 35
+	- Splash damage radius: 30
 	- Ammo: 8
 	- Heat produced per shot: 10
 
@@ -324,7 +335,7 @@ Elemental:
 
 Hybrid Armor:
  - Now has new alternate skins
- - Given target jammer ability (5secs) | Recharge time = 14secs
+ - Target jammer ability - Duration: 5secs | Recharge time: 12secs
  - 1xLaser change to 2xLaser
  - 2xSRM change to 1xLRM
  - Max health increased from 500 to 1475
@@ -348,13 +359,13 @@ Light Mechs:
 ------------------------------------------------------------------
 
 Owens:
- - Target jammer ability (8secs)
+ - Target jammer ability (6secs)
  - Max health increased from 2946 to 2985
  - Max run speed increased from 45 to 48
  - Max heat capacity increased from 107 to 110
  - Heat cool rate increased from 10 to 11
  - Now drops ballistic salvage on death
- - Knock-down chance decreased from 4.79 to 4.2
+ - Knock-down chance decreased from 4.79 to 2.8
  - Leg health increased from 911 to 1076
  - Max health drop reduced from 35T to 20T
 
@@ -365,13 +376,13 @@ Hackman:
  - Max run speed increased from 45 to 48
  - Max heat capacity increased from 107 to 110
  - Heat cool rate increased from 10 to 11
- - Knock-down chance decreased from 4.79 to 4.2
+ - Knock-down chance decreased from 4.79 to 2.85
  - Leg health increased from 911 to 1076
 
 ------------------------------------------------------------------
 
 (NEW) Grasshopper (Owens/Hackman variant):
- - AMS ability duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 11secs
  - Max health: 2985
  - Max run speed: 48
  - Heat cooling rate: 14
@@ -394,31 +405,33 @@ Raven:
  - Max heat capacity increased from 107 to 110
  - Heat cool rate increased from 10 to 11
  - Now drops energy salvage on death
- - Knock-down chance decreased from 4.79 to 4.2
+ - Knock-down chance decreased from 4.79 to 2.85
  - Leg health increased from 773 to 1043
  - Max health drop reduced from 35T to 30T
 
 ------------------------------------------------------------------
 
 Corvus:
- - Target jammer ability (12secs)
+ - Target jammer ability - Duration: 12secs | Recharge time: 17secs
  - 1xAuto cannon change to 1xGauss
  - Max health increased from 2600 to 3020
+ - Max heat capacity increased from 107 to 110
+ - Heat cool rate increased from 10 to 11
  - Jump jet duration increased from 4.25secs to 6.25secs
  - Jump jet height limiter decreased from 1.1 to 0.9
  - Max heat capacity increased from 107 to 110
- - Knock-down chance decreased from 4.79 to 4.2
+ - Knock-down chance decreased from 4.79 to 2.85
  - Leg health increased from 773 to 1043
  - Max health drop increased from 20T to 30T
 
 ------------------------------------------------------------------
 
 (NEW) Talon (Raven/Corvus variant):
- - AMS ability duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 11secs
  - Jump jet duration: 6secs
  - Max health: 3020
  - Max run speed: 42
- - Heat cooling rate: 11
+ - Heat cooling rate: 13
  - Max heat capacity: 110
 
 Salvage Drops:
@@ -435,10 +448,10 @@ Weapon Loadout:
 Uller:
  - 1xSRM change to 2xSRM
  - Given 2xMachine gun
- - Max health increased from 2750 to 3085
- - Heat cool rate increased from 10 to 12
+ - Max health increased from 2750 to 3115
+ - Heat cool rate increased from 10 to 14
  - Max heat capacity increased from 100 to 120
- - Knock-down chance decreased from 5 to 4.5
+ - Knock-down chance decreased from 5 to 2.7
  - Leg health increased from 859 to 1057
  - Max health drop increased from 20T to 30T
  - Now drops energy salvage on death
@@ -448,10 +461,10 @@ Uller:
 Kit Fox:
  - 1xPulse laser change to 2xPulse laser
  - Given 1xAuto cannon
- - Max health increased from 2750 to 3085
+ - Max health increased from 2750 to 3115
  - Heat cool rate increased from 10 to 11
- - Max heat capacity increased from 100 to 110
- - Knock-down chance decreased from 5 to 4.5
+ - Max heat capacity increased from 100 to 120
+ - Knock-down chance decreased from 5 to 2.7
  - Leg health increased from 859 to 1057
  - Max health drop increased from 20T to 30T
  - Energy salvage on death changed to missile
@@ -460,23 +473,24 @@ Kit Fox:
 
 Cougar:
  - Given AMS ability
+ - 2xPulse laser change to 4xPulse laser
  - 1xAuto cannon change to 2xAuto cannon
- - Max health increased from 2714 to 3240
+ - Max health increased from 2714 to 3280
  - Jump jet duration increased from 5secs to 7secs
- - Max heat capacity increased from 107 to 120
- - Knock-down chance decreased from 4.74 to 4
+ - Max heat capacity increased from 107 to 125
+ - Knock-down chance decreased from 4.74 to 2.6
  - Leg health increased from 837 to 1132
- - Heat cool rate increased from 10 to 14
+ - Heat cool rate increased from 10 to 16
  - Max health drop increased from 20T to 35T
 
 ------------------------------------------------------------------
 
 Puma:
- - Max health increased from 2714 to 3240
- - Max heat capacity increased from 107 to 120
+ - Max health increased from 2714 to 3280
+ - Max heat capacity increased from 107 to 125
  - Jump jet duration increased from 5secs to 7secs
- - Heat cool rate increased from 10 to 12
- - Knock-down chance decreased from 4.74 to 4
+ - Heat cool rate increased from 10 to 14
+ - Knock-down chance decreased from 4.74 to 2.6
  - Leg health increased from 837 to 1132
  - Max health drop increased from 20T to 35T
  - Now drops energy salvage on death
@@ -489,11 +503,11 @@ Medium Mechs:
 ------------------------------------------------------------------
 
 Belial:
- - Given target jammer ability (7secs)
+ - Given target jammer ability - Duration: 6secs | Recharge time: 20secs
  - 1xPulse laser change to 2xPulse laser
  - Max health increased from 3214 to 3420
  - Max heat capacity increased from 129 to 135
- - Knock-down chance decreased from 4.14 to 3.8
+ - Knock-down chance decreased from 4.14 to 2.55
  - Leg health increased from 962 to 1163
  - Heat cool rate increased from 10 to 12
 
@@ -503,14 +517,14 @@ Uziel:
  - 1xMachine gun change to 2xMachine gun
  - Max health increased from 3214 to 3420
  - Max heat capacity increased from 129 to 135
- - Knock-down chance decreased from 4.14 to 3.8
+ - Knock-down chance decreased from 4.14 to 2.55
  - Leg health increased from 962 to 1163
  - Heat cool rate increased from 12 to 14
 
 ------------------------------------------------------------------
 
 (NEW) Mariel (Uziel/Belial variant):
- - Cloak ability duration: 30secs | Recharge time: 15secs
+ - Cloak ability - Duration: 30secs | Recharge time: 15secs
  - Jump jet duration: 6secs
  - Max health: 3420
  - Max run speed: 35
@@ -538,23 +552,25 @@ Vulture:
  - Max health increased from 3571 to 3725
  - Max run speed increased from 30 to 35
  - Max heat capacity increased from 143 to 150
+ - Knock-down chance decreased from 3.71 to 2.4
  - Leg health increased from 1046 to 1211
  - Heat cool rate increased from 12 to 15
 
 ------------------------------------------------------------------
 
 Mad Dog:
- - Given target jammer ability (7secs)
+ - Given target jammer ability (6secs)
  - Max health increased from 3571 to 3725
  - 1xAuto cannon change to 2xAuto cannon
  - Max heat capacity increased from 143 to 150
+ - Knock-down chance decreased from 3.71 to 2.4
  - Leg health increased from 1046 to 1211
  - Heat cool rate increased from 12 to 15
 
 ------------------------------------------------------------------
 
 (NEW) Jackal (Vulture/Mad Dog variant):
- - Cloak ability duration: 30secs | Recharge time: 15secs
+ - Cloak ability - Duration: 30secs | Recharge time: 15secs
  - Jump jet duration: 5secs
  - Max health: 3725
  - Max run speed: 32
@@ -575,6 +591,7 @@ Weapon Loadout:
 Catapult:
  - Max health increased from 3750 to 3825
  - Max heat capacity increased from 150 to 160
+ - Knock-down chance decreased from 3.5 to 2.35
  - Leg health increased from 1087 to 1232
  - Max health drop increased from 50T to 60T
 
@@ -583,15 +600,16 @@ Catapult:
 Bowman:
  - Max health increased from 3750 to 3825
  - Max heat capacity increased from 150 to 160
+ - Knock-down chance decreased from 3.5 to 2.35
  - Leg health increased from 1087 to 1232
  - Max health drop reduced from 65T to 60T
 
 ------------------------------------------------------------------
 
 (NEW) Hailstorm (Catapult/Bowman variant):
- - Cloak ability duration: 30secs | Recharge time: 15secs
+ - Cloak ability - Duration: 30secs | Recharge time: 15secs
  - Max health: 3825
- - Max run speed: 25
+ - Max run speed: 32
  - Heat cooling rate: 18
  - Max heat capacity: 160
 
@@ -613,6 +631,7 @@ Hellbringer:
  - Max health increased from 3929 to 4055
  - Max run speed increased from 30 to 34
  - Max heat capacity increased from 157 to 170
+ - Knock-down chance decreased from 3.29 to 2.3
  - Leg health increased from 1127 to 1249
  - Heat cool rate increased from 10 to 15
  - Max health drop increased from 50T to 65T
@@ -621,17 +640,18 @@ Hellbringer:
 ------------------------------------------------------------------
 
 Loki:
- - Cloak ability (35secs)
+ - Cloak ability (40secs)
  - 2xPulse lasers change to 2xLasers
  - Max health increased from 3929 to 4055
  - Max heat capacity increased from 157 to 160
+ - Knock-down chance decreased from 3.29 to 2.3
  - Leg health increased from 1127 to 1249
  - Max health drop increased from 50T to 65T
 
 ------------------------------------------------------------------
 
 (NEW) Vortex (Hellbringer/Loki variant):
- - AMS ability duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 11secs
  - Max health: 4055
  - Max run speed: 34
  - Heat cooling rate: 14
@@ -650,12 +670,13 @@ Weapon Loadout:
 ------------------------------------------------------------------
 
 Thor:
- - Target jammer ability (7secs)
+ - Target jammer ability (6secs)
  - Max health increased from 3929 to 4135
  - Max run speed increased from 30 to 37
  - Max heat capacity increased from 157 to 170
+ - Knock-down chance decreased from 3.29 to 2.3
  - Leg health increased from 1127 to 1263
- - Heat cool rate increased from 10 to 13
+ - Heat cool rate increased from 10 to 15
  - Max health drop increased from 50T to 65T
 
 ------------------------------------------------------------------
@@ -665,8 +686,9 @@ Summoner:
  - 2xAuto cannon change to 3xAuto cannon
  - Max health increased from 3929 to 4135
  - Max run speed increased from 30 to 34
- - Max heat capacity increased from 157 to 160
+ - Max heat capacity increased from 157 to 170
  - Jump jet speed increased from 20 to 25
+ - Knock-down chance decreased from 3.29 to 2.3
  - Leg health increased from 1127 to 1263
  - Heat cool rate increased from 18 to 19
  - Max health drop decreased from 70T to 65T
@@ -675,11 +697,11 @@ Summoner:
  ------------------------------------------------------------------
 
 (NEW) Thanatos (Thor/Summoner variant):
- - AMS ability duration: 4secs | Recharge time: 11secs
+ - Target jammer ability - Duration: 6secs | Recharge time: 20secs
  - Max health: 4135
  - Max run speed: 34
  - Heat cooling rate: 14
- - Max heat capacity: 160
+ - Max heat capacity: 170
 
 Salvage Drops:
  - 65T Armor
@@ -696,6 +718,7 @@ Weapon Loadout:
 Mad Cat:
  - Max health increased from 4107 to 4210
  - Max heat capacity increased from 164 to 170
+ - Knock-down chance decreased from 3.29 to 2.25
  - Leg health increased from 1166 to 1290
  - Heat cool rate increased from 13 to 14
  - Max health drop increased from 60T to 70T
@@ -706,6 +729,7 @@ Timber Wolf:
  - Given AMS ability
  - Max health increased from 4107 to 4210
  - Max heat capacity increased from 154 to 170
+ - Knock-down chance decreased from 3.29 to 2.25
  - Leg health increased from 1166 to 1290
  - Heat cool rate increased from 10 to 16
  - Max health drop increased from 60T to 70T
@@ -720,7 +744,7 @@ Assault Mechs:
 Atlas:
  - Added getup/knockdown animation
  - 2xLRM change to 4xLRM
- - Heat cool rate increased from 17 to 18
+ - Heat cool rate increased from 17 to 20
  - Now drops missile salvage on death
 
 ------------------------------------------------------------------
@@ -733,9 +757,9 @@ Prometheus:
 ------------------------------------------------------------------
 
 (NEW) Warlord (Atlas/Prometheus variant):
- - Cloak ability duration: 30secs | Recharge time: 15secs
+ - Cloak ability - Duration: 30secs | Recharge time: 15secs
  - Max health: 5300
- - Max run speed: 28
+ - Max run speed: 30
  - Heat cooling rate: 17
  - Max heat capacity: 200
 
@@ -755,6 +779,7 @@ Weapon Loadout:
 Ragnarok:
  - Added getup/knockdown animation
  - Max health increased from 5035 to 5075
+ - Knock-down chance decreased from 1.96 to 1.95
  - Leg health increased from 1358 to 1408
  - Heat cool rate increased from 11 to 13
 
@@ -764,16 +789,17 @@ Ymir:
  - Added getup/knockdown animation
  - Max health increased from 5035 to 5075
  - Heat cool rate increased from 10 to 16
+ - Knock-down chance decreased from 1.96 to 1.95
  - Leg health increased from 1358 to 1408
  - Max heat capacity increased from 200 to 210
 
 ------------------------------------------------------------------
 
 (NEW) Bleeding Star (Ragnarok/Ymir variant):
- - Alt Shield ability duration: 4secs | Recharge time: 8secs
+ - Alt Shield ability - Duration: 4secs | Recharge time: 8secs
  - Max health: 5075
  - Max run speed: 28
- - Heat cooling rate: 18
+ - Heat cooling rate: 19
  - Max heat capacity: 210
 
 Salvage Drops:
