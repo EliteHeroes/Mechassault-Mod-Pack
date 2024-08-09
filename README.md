@@ -1,6 +1,7 @@
 # Mechassault Mod Pack
 
 This mod pack is a compilation of several different mods for the first Mechassault game, aimed at improving the overall playing experience. Adding a huge number of new maps across all game modes, various new mech variants, and a carefully tuned multiplayer, just to name a few new additions. Please note that this does not completely replace the original version of the game. Once installed, you'll have an in-game option to toggle the mods on or off at will. To install and play, it is recommended to download the [latest release](https://github.com/EliteHeroes/Mechassault-Mod-Pack/releases) and follow the install guide.
+
 ![](/Screenshots/Pic10.png)
 
 ## Install Guide
