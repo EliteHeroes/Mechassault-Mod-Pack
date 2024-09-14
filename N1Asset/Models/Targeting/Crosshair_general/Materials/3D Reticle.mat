@@ -1,0 +1,22 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by czalek
+;Created on Tue Mar 12 10:25:36 2002
+
+
+[material]
+type       = SOLID
+name           = "3D Reticle"
+amb_color      = 0, 0, 0
+diff_color     = 0, 0, 0
+selfillum_color= 112, 16, 0
+shininess     = 20
+shin_strength = 0.05
+spec_color    = 221, 221, 221
+opacity       = 0.67
+two_sided     = false
+shading       = flat
+blending      = additive
+
+

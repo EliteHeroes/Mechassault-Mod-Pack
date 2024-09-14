@@ -1,0 +1,26 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sun Aug 18 18:55:53 2002
+
+
+[material]
+type       = BASE
+name           = "MachineGun_L2"
+amb_color      = 11, 11, 11
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = true
+shading       = none
+blending      = additive
+base             = "MachineGun_L2.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

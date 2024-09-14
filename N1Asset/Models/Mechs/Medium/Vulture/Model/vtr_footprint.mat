@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Sep 13 15:58:12 2001
+
+
+[material]
+type       = BASE
+name           = "Footprint"
+amb_color      = 26, 26, 26
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = alpha
+base             = "vtr_footprint.tif"
+base_tiling        = U_CLAMP | V_CLAMP
+base_mipmapping  = yes
+base_mipmap_bias = -2
+
+

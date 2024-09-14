@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.15.0.109
+;Created by KWhitman
+;Created on Wed May 09 17:59:43 2001
+
+
+[material]
+type       = BASE
+name           = "Material #9"
+amb_color      = 25, 25, 25
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = none
+blending      = additive
+base             = "AMS_Wave.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 16:56:03 2002
+
+
+[mesh]
+name       = "mad_lbgun"
+type       = INDEXEDLIST
+vertices   = "mad_lbgun.geomVert"
+faces      = "mad_lbgun.geomFace"
+material   = "../Materials/Mad_Body_low_MP08.mat"

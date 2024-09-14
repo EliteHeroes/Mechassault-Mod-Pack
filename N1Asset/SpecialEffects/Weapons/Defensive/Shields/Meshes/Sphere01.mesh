@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 17 12:43:29 2002
+
+
+[mesh]
+name       = "Sphere01"
+type       = INDEXEDLIST
+vertices   = "Sphere01.geomVert"
+faces      = "Sphere01.geomFace"
+material   = "../Materials/Mech_Shield.mat"

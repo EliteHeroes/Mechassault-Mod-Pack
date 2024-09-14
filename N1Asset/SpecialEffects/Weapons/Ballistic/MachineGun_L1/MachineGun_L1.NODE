@@ -1,0 +1,20 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sun Aug 18 18:56:21 2002
+
+
+[MachineGun_L1_Tracer ]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/MachineGun_L1_Tracer .mesh"
+
+
+; Hierarchy dump:
+; MachineGun_L1_Tracer 

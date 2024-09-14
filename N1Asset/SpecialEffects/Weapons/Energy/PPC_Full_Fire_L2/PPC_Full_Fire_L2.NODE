@@ -1,0 +1,114 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 17:41:12 2002
+
+
+[PPC Full Fire L2]
+type         = NODE
+position     = -0.00172420, -0.01542585, 0.00335471
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 8
+;child       = "PPC Full Fire L2 Beam1.node"
+;child       = "PPC Full Fire L2 Beam2.node"
+;child       = "PPC Full Fire L2 Elec 1.node"
+;child       = "PPC Full Fire L2 Elec2.node"
+;child       = "PPC Full Fire L2 Elec3.node"
+;child       = "PPC Full Fire L2 Elec3X.node"
+;child       = "PPC Full Fire L2 Flash1.node"
+;child       = "PPC Full Fire L2 Flash2.node"
+
+[PPC Full Fire L2 Beam1]
+type         = 3DOBJECT
+position     = -0.00095416, 0.08886674, 0.01406345
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000024
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Beam1.mesh"
+
+[PPC Full Fire L2 Beam2]
+type         = 3DOBJECT
+position     = -0.00095416, 0.08886674, 0.01406345
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000024
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Beam2.mesh"
+
+[PPC Full Fire L2 Elec 1]
+type         = facing
+position     = -0.00618752, 0.01112343, 0.43548161
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Elec 1.mesh"
+
+[PPC Full Fire L2 Elec2]
+type         = facing
+position     = -0.01350244, 0.00654618, 1.38813508
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Elec2.mesh"
+
+[PPC Full Fire L2 Elec3]
+type         = facing
+position     = 0.13251562, 0.13623202, 0.49040270
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Elec3.mesh"
+
+[PPC Full Fire L2 Elec3X]
+type         = facing
+position     = 0.14816032, -0.05503929, -0.03125881
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Elec3X.mesh"
+
+[PPC Full Fire L2 Flash1]
+type         = facing
+position     = -0.01350231, 0.00654628, 0.26096183
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Flash1.mesh"
+
+[PPC Full Fire L2 Flash2]
+type         = facing
+position     = 0.01359227, 0.01760635, 0.65579641
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Fire L2 Flash2.mesh"
+
+
+; Hierarchy dump:
+; PPC Full Fire L2
+;   PPC Full Fire L2 Beam1
+;   PPC Full Fire L2 Beam2
+;   PPC Full Fire L2 Elec 1
+;   PPC Full Fire L2 Elec2
+;   PPC Full Fire L2 Elec3
+;   PPC Full Fire L2 Elec3X
+;   PPC Full Fire L2 Flash1
+;   PPC Full Fire L2 Flash2

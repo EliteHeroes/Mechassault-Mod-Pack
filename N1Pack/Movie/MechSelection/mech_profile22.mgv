@@ -1,0 +1,12 @@
+[Movie]
+Type	  = MOVIE					; MOVIE or SPRITE
+ImageType = X8R8G8B8					; valid types are X8R8G8B8, R6G5B5, R5G6B5 (default), A8R8G8B8, R5G5B5A1, A4R4G4B4
+AudioType = none					; mono, stereo, 5.1, 5.0, 4.0, 2.0, 1.0, none
+region	  = false
+file	  = Video\Mechwarrior.bik
+play	  = true
+preload   = true
+Loop      = true
+
+
+

@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Jul 23 09:57:01 2002
+
+
+[mesh]
+name       = "Laser L1 Tip Glow"
+type       = INDEXEDLIST
+vertices   = "Laser L1 Tip Glow.geomVert"
+faces      = "Laser L1 Tip Glow.geomFace"
+material   = "../Materials/Laser L1 Tip Glow.mat"

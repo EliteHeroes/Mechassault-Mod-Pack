@@ -1,0 +1,30 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Mon Aug 05 09:43:46 2002
+
+
+[PPC Weak Fire L1]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.23033601
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "PPC Weak L1 Fire Flash.node"
+
+[PPC Weak L1 Fire Flash]
+type         = facing
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Weak L1 Fire Flash.mesh"
+
+
+; Hierarchy dump:
+; PPC Weak Fire L1
+;   PPC Weak L1 Fire Flash

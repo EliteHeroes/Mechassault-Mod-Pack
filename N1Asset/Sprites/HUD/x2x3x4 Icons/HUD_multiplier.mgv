@@ -1,0 +1,13 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+
+file = "x2.tif"
+file = "x3.tif"
+file = "x4.tif"
+
+
+
+

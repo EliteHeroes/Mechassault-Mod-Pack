@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Thu Apr 25 16:38:48 2002
+
+
+[material]
+type       = BASE
+name           = "thr_missile_low"
+amb_color      = 16, 40, 46
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = normal
+base             = "thr_missile_low_MP08.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

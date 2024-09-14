@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Fri Apr 05 13:08:19 2002
+
+
+[mesh]
+name       = "ulr_rarm"
+type       = INDEXEDLIST
+vertices   = "ulr_rarm.geomVert"
+faces      = "ulr_rarm.geomFace"
+material   = "../Materials/ulr_body_low_MP08.mat"

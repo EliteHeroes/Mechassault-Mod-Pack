@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.15.0.109
+;Created by KWhitman
+;Created on Wed May 09 17:41:43 2001
+
+
+[mesh]
+name       = "Plane03"
+type       = INDEXEDLIST
+vertices   = "Plane03.geomVert"
+faces      = "Plane03.geomFace"
+material   = "../Materials/PPC_Full_Hit_L1_Elec2.mat"

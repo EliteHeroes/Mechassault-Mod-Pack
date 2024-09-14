@@ -1,0 +1,42 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 15:39:19 2002
+
+
+[PPC_Full_L2]
+type         = NODE
+position     = -0.00533297, 0.00002035, -0.13790041
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "PPC_Full_L2_Flash.node"
+;child       = "PPC_Full_L2 Capsule.node"
+
+[PPC_Full_L2_Flash]
+type         = facing
+position     = 0.00793678, -0.00073997, 0.13692319
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000006
+scale        = 1.45000017, 1.45000017, 1.45000005
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC_Full_L2_Flash.mesh"
+
+[PPC_Full_L2 Capsule]
+type         = 3DOBJECT
+position     = 0.00030152, 0.00000008, 1.39395213
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.45000017, 1.45000017, 1.45000005
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC_Full_L2 Capsule.mesh"
+
+
+; Hierarchy dump:
+; PPC_Full_L2
+;   PPC_Full_L2_Flash
+;   PPC_Full_L2 Capsule

@@ -1,0 +1,33 @@
+[fileinfo]
+file_version    = 2
+unique		= true
+;MAXPort version 1.16.0.110
+;Created on Thu Dec 20 18:11:13 2001
+
+
+[material]
+type       = ANIMATED
+name           = "test"
+amb_color      = 11, 11, 11
+diff_color     = 255, 255, 255
+;232, 137, 0  fire
+selfillum_color= 255, 50, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = additive
+base             ="Flamer.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+correct_shading	= true
+
+animMaxFrameNum		= 9
+animLoops		= 1
+animBlendFrames		= 1
+animRate		= .5 - .7
+animPlaying		= true
+animRandomStart		= 0

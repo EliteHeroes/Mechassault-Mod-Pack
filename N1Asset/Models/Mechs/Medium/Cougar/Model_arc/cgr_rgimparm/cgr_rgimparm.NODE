@@ -1,0 +1,118 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 12:57:04 2002
+
+
+[joint_ruarmabove]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_ruarm.node"
+
+[joint_ruarm]
+type         = NODE
+position     = -0.00000005, 0.00000021, -0.00000001
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "joint_rgunabove.node"
+;child       = "Cgr_ruarm.node"
+
+[joint_rgunabove]
+type         = NODE
+position     = 0.35000014, -0.69999981, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_rgun.node"
+
+[joint_rgun]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 5
+;child       = "Cgr_rfgun.node"
+;child       = "Cgr_rgun.node"
+;child       = "Cgr_rdarm.node"
+;child       = "Effects.node"
+;child       = "cgr_rinsidearm.node"
+
+[Cgr_rfgun]
+type         = 3DOBJECT
+position     = 0.36032015, -1.27549577, 2.14626265
+rot_axis     = 1.00000000, 0.00000000, 0.00000000
+rot_angle    = 1.57079613
+scale        = 1.00000000, 0.99999964, 0.99999964
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_rfgun.mesh"
+
+[Cgr_rgun]
+type         = 3DOBJECT
+position     = 0.32485408, -0.91865575, 0.80566430
+rot_axis     = 1.00000000, 0.00000000, 0.00000000
+rot_angle    = 1.57079613
+scale        = 1.00000000, 0.99999964, 0.99999964
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_rgun.mesh"
+
+[Cgr_rdarm]
+type         = 3DOBJECT
+position     = 0.12098527, -0.07264465, 0.00795180
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_rdarm.mesh"
+
+[Effects]
+type         = NODE
+position     = 0.28111094, -0.43750489, 0.01185799
+rot_axis     = -1.00000000, 0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 0.59171599, 0.59171599, 0.59171599
+num_children = 0
+
+[cgr_rinsidearm]
+type         = 3DOBJECT
+position     = 0.20617080, -0.27175295, -0.15607256
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../cgr_rinsidearm.mesh"
+
+[Cgr_ruarm]
+type         = 3DOBJECT
+position     = 0.12027149, -0.21517733, 0.00043960
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_ruarm.mesh"
+
+
+; Hierarchy dump:
+; joint_ruarmabove
+;   joint_ruarm
+;     joint_rgunabove
+;       joint_rgun
+;         Cgr_rfgun
+;         Cgr_rgun
+;         Cgr_rdarm
+;         Effects
+;         cgr_rinsidearm
+;     Cgr_ruarm

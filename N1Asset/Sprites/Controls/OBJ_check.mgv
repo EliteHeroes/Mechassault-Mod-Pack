@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = false
+Loop = false
+FrameRate = 10
+file = "OBJ_check_none.tif"
+file = "OBJ_check_nonesel.tif"
+file = "OBJ_check_unselected.tif"
+file = "OBJ_check_selected.tif"
+

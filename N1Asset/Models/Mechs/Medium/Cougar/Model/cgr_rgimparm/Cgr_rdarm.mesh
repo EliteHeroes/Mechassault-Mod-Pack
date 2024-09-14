@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 12:57:05 2002
+
+
+[mesh]
+name       = "Cgr_rdarm"
+type       = INDEXEDLIST
+vertices   = "Cgr_rdarm.geomVert"
+faces      = "Cgr_rdarm.geomFace"
+material   = "../Materials/Cgr_Body_low_MP08.mat"

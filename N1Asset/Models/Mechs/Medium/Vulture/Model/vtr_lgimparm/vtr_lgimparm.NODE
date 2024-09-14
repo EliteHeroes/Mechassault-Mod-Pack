@@ -1,0 +1,76 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Tue Apr 23 17:40:25 2002
+
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 5
+;child       = "Effects.node"
+;child       = "vtr_lfgun.node"
+;child       = "vtr_linsidearm.node"
+;child       = "vtr_lgun.node"
+;child       = "vtr_luarm.node"
+
+[Effects]
+type         = NODE
+position     = -1.08100510, -1.32751083, 0.00872970
+rot_axis     = -1.00000000, 0.00000000, 0.00000001
+rot_angle    = 3.14159274
+scale        = 0.76923078, 0.76923078, 0.76923078
+num_children = 0
+
+[vtr_lfgun]
+type         = 3DOBJECT
+position     = -1.00793386, -1.38188601, 4.17701435
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.00100000, 0.00100000, 0.00100000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_lfgun.mesh"
+
+[vtr_linsidearm]
+type         = 3DOBJECT
+position     = -0.94619513, -0.77945042, 0.03165042
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_linsidearm.mesh"
+
+[vtr_lgun]
+type         = 3DOBJECT
+position     = -1.27192497, -1.43188667, 2.05311441
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.00100000, 0.00100000, 0.00100000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_lgun.mesh"
+
+[vtr_luarm]
+type         = 3DOBJECT
+position     = -0.73843312, -0.67766476, -0.00183940
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_luarm.mesh"
+
+
+; Hierarchy dump:
+; joint_luarm
+;   Effects
+;   vtr_lfgun
+;   vtr_linsidearm
+;   vtr_lgun
+;   vtr_luarm

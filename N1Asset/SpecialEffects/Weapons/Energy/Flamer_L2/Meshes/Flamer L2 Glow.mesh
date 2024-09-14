@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Dec 11 13:45:54 2002
+
+
+[mesh]
+name       = "Flamer L2 Glow"
+type       = INDEXEDLIST
+vertices   = "Flamer L2 Glow.geomVert"
+faces      = "Flamer L2 Glow.geomFace"
+material   = "../Materials/Flamer_L2_Glow.mat"

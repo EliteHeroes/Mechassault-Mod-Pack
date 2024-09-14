@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 16:56:03 2002
+
+
+[mesh]
+name       = "mad_linsidearm"
+type       = INDEXEDLIST
+vertices   = "mad_linsidearm.geomVert"
+faces      = "mad_linsidearm.geomFace"
+material   = "../Materials/mech_gimparm.mat"

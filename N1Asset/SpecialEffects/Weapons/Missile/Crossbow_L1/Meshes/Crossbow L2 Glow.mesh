@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Mon Jul 22 18:49:01 2002
+
+
+[mesh]
+name       = "Crossbow L2 Glow"
+type       = INDEXEDLIST
+vertices   = "Crossbow L2 Glow.geomVert"
+faces      = "Crossbow L2 Glow.geomFace"
+material   = "../Materials/Crossbow_L2_Glow.mat"

@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by jpierce
+;Created on Tue Aug 20 10:11:09 2002
+
+
+[mesh]
+name       = "missile"
+type       = INDEXEDLIST
+vertices   = "missile.geomVert"
+faces      = "missile.geomFace"
+material   = "../Materials/missile_red.mat"

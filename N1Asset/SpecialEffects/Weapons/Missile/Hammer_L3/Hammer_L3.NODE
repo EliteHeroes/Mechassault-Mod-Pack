@@ -1,0 +1,64 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 24 18:42:06 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "Hammer L3 Missile.node"
+;child       = "Hammer L3 Glow.node"
+;child       = "Fake Pin Light.node"
+
+[Hammer L3 Missile]
+type         = 3DOBJECT
+position     = -0.00396169, 0.02104195, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Hammer L3 Missile.mesh"
+
+[Hammer L3 Glow]
+type         = facing
+position     = 0.01186042, 0.01701055, -0.36353207
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Hammer L3 Glow.mesh"
+
+[Fake Pin Light]
+type         = LIGHT
+position     = 0.00170428, 0.00000000, -0.00668979
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+light_type        = fake
+light_on          = yes
+light_color       = 144, 165, 255
+light_radius      = 1.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 10.00000000
+light_lightmap_max_height = 30.00000000
+light_lightmap_min_radius = 75.00000000
+light_lightmap_max_radius = 90.00000000
+light_lightmap_min_color  = 255, 70, 0
+light_lightmap_max_color  = 255, 70, 0
+
+
+; Hierarchy dump:
+; Root Node
+;   Hammer L3 Missile
+;   Hammer L3 Glow
+;   Fake Pin Light

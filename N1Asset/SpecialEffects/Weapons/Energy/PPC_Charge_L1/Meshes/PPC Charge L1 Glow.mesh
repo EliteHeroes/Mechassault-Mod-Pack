@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sun Aug 04 12:28:07 2002
+
+
+[mesh]
+name       = "PPC Charge L1 Glow"
+type       = INDEXEDLIST
+vertices   = "PPC Charge L1 Glow.geomVert"
+faces      = "PPC Charge L1 Glow.geomFace"
+material   = "../Materials/PPC Charge  L1 Glow 1.mat"

@@ -1,0 +1,86 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Fri Apr 05 13:08:47 2002
+
+
+[joint_luarmabove]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_luarm.node"
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 5
+;child       = "ulr_linsidearm.node"
+;child       = "Effects.node"
+;child       = "ulr_lfgun.node"
+;child       = "ulr_Larm.node"
+;child       = "Ulr_Lgun.node"
+
+[ulr_linsidearm]
+type         = 3DOBJECT
+position     = -0.41572702, -0.77306825, 0.03398852
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "ulr_linsidearm.mesh"
+
+[Effects]
+type         = NODE
+position     = -0.44507408, -0.97527295, 0.02069682
+rot_axis     = -0.98480773, 0.17364818, -0.00000003
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+[ulr_lfgun]
+type         = 3DOBJECT
+position     = -0.12948641, -1.74905956, 1.20185304
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.09699999, 0.09699994, 0.09699993
+num_children = 0
+num_meshes   = 1
+mesh         = "ulr_lfgun.mesh"
+
+[ulr_Larm]
+type         = 3DOBJECT
+position     = 2.26600003, -5.24589205, 0.18580344
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "ulr_Larm.mesh"
+
+[Ulr_Lgun]
+type         = 3DOBJECT
+position     = -0.32806635, -1.34214926, 0.56149852
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Ulr_Lgun.mesh"
+
+
+; Hierarchy dump:
+; joint_luarmabove
+;   joint_luarm
+;     ulr_linsidearm
+;     Effects
+;     ulr_lfgun
+;     ulr_Larm
+;     Ulr_Lgun

@@ -1,0 +1,98 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Thu Apr 25 16:38:48 2002
+
+
+[joint_ruarmabove]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_ruarm.node"
+
+[joint_ruarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 6
+;child       = "Effects.node"
+;child       = "thr_rinsidearm.node"
+;child       = "thr_ruarm.node"
+;child       = "thr_relbow.node"
+;child       = "thr_rfgun.node"
+;child       = "thr_rgun.node"
+
+[Effects]
+type         = NODE
+position     = 0.87885278, -1.77135122, 0.00622427
+rot_axis     = -1.00000000, 0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+[thr_rinsidearm]
+type         = 3DOBJECT
+position     = 1.04792190, -1.51991129, -0.06817169
+rot_axis     = 0.00000000, -1.00000000, 0.00000000
+rot_angle    = 0.52359885
+scale        = 0.99999964, 0.99999994, 0.99999988
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_rinsidearm.mesh"
+
+[thr_ruarm]
+type         = 3DOBJECT
+position     = 0.53283209, -0.48363847, -0.01089580
+rot_axis     = 0.00000000, 0.00000004, -1.00000000
+rot_angle    = 0.08726646
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_ruarm.mesh"
+
+[thr_relbow]
+type         = 3DOBJECT
+position     = 0.98340338, -1.81460273, -0.03595018
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000018
+scale        = 0.89285713, 0.89285737, 0.89285737
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_relbow.mesh"
+
+[thr_rfgun]
+type         = 3DOBJECT
+position     = 0.98967803, -1.85788548, 2.92247725
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_rfgun.mesh"
+
+[thr_rgun]
+type         = 3DOBJECT
+position     = 1.03409600, -2.04056787, 1.44792914
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_rgun.mesh"
+
+
+; Hierarchy dump:
+; joint_ruarmabove
+;   joint_ruarm
+;     Effects
+;     thr_rinsidearm
+;     thr_ruarm
+;     thr_relbow
+;     thr_rfgun
+;     thr_rgun

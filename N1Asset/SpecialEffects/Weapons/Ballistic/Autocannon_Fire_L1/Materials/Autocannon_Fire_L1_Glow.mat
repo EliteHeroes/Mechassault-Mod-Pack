@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Jul 18 16:17:21 2002
+
+
+[material]
+type       = BASE
+name           = "Autocannon_Fire_L1_Glow"
+amb_color      = 16, 32, 57
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = none
+blending      = additive
+base             = "SRM_glow.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

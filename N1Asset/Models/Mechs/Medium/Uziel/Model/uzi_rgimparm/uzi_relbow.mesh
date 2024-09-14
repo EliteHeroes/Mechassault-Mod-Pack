@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 11:51:05 2002
+
+
+[mesh]
+name       = "uzi_relbow"
+type       = INDEXEDLIST
+vertices   = "uzi_relbow.geomVert"
+faces      = "uzi_relbow.geomFace"
+material   = "../Materials/uzi_body_low_MP08.mat"

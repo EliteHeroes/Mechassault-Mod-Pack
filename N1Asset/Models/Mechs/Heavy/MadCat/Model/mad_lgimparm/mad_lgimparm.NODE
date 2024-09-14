@@ -1,0 +1,100 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 16:56:03 2002
+
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 4
+;child       = "mad_luarm.node"
+;child       = "mad_lbgun.node"
+;child       = "mad_lgunjoint.node"
+;child       = "mad_lfgun.node"
+
+[mad_luarm]
+type         = 3DOBJECT
+position     = 0.00078067, 0.00049420, -0.00843476
+rot_axis     = 0.00000000, -0.00000004, 1.00000000
+rot_angle    = 0.08726646
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "mad_linsidearm.node"
+;child       = "Effects.node"
+num_meshes   = 1
+mesh         = "mad_luarm.mesh"
+
+[mad_linsidearm]
+type         = 3DOBJECT
+position     = -1.36960006, -1.35655212, -0.11383878
+rot_axis     = -0.00000000, 0.00000004, -1.00000000
+rot_angle    = 0.08726647
+scale        = 0.99999988, 0.99999988, 0.99999994
+num_children = 0
+num_meshes   = 1
+mesh         = "mad_linsidearm.mesh"
+
+[Effects]
+type         = NODE
+position     = -1.19677210, -1.59036708, 0.00843469
+rot_axis     = -1.00000000, -0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 0.99999994
+num_children = 0
+
+[mad_lbgun]
+type         = 3DOBJECT
+position     = -1.23591304, -2.24879313, 1.12320304
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "Extra_LGun.node"
+num_meshes   = 1
+mesh         = "mad_lbgun.mesh"
+
+[Extra_LGun]
+type         = 3DOBJECT
+position     = 0.05266476, -0.26672649, -0.27312958
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Extra_LGun.mesh"
+
+[mad_lgunjoint]
+type         = 3DOBJECT
+position     = -1.18549502, -1.98763359, -0.02817361
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "mad_lgunjoint.mesh"
+
+[mad_lfgun]
+type         = 3DOBJECT
+position     = -1.18606627, -2.04601574, 3.41198397
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "mad_lfgun.mesh"
+
+
+; Hierarchy dump:
+; joint_luarm
+;   mad_luarm
+;     mad_linsidearm
+;     Effects
+;   mad_lbgun
+;     Extra_LGun
+;   mad_lgunjoint
+;   mad_lfgun

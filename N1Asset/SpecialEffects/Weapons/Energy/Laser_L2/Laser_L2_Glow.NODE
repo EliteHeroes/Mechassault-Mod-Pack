@@ -1,0 +1,64 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Jul 23 15:48:04 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "Laser L2 Glow.node"
+;child       = "fake pin light.node"
+
+[Laser L2 Glow]
+type         = 3DOBJECT
+position     = -0.00107980, 0.01036620, 0.01948035
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "Laser L2 Tip Glow.node"
+num_meshes   = 1
+mesh         = "Meshes/Laser L2 Glow.mesh"
+
+[Laser L2 Tip Glow]
+type         = facing
+position     = 0.00043915, 0.00000000, -0.02155602
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.25000000, 1.25000000, 1.25000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Laser L2 Tip Glow.mesh"
+
+[fake pin light]
+type         = LIGHT
+position     = 0.00882019, 0.00484773, 0.00607276
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+light_type        = fake
+light_on          = yes
+light_color       = 255, 255, 255
+light_radius      = 1.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 1.00000000
+light_lightmap_max_height = 50.00000000
+light_lightmap_min_radius = 40.00000000
+light_lightmap_max_radius = 50.00000000
+light_lightmap_min_color  = 255, 0, 0
+light_lightmap_max_color  = 255, 0, 0
+
+
+; Hierarchy dump:
+; Root Node
+;   Laser L2 Glow
+;     Laser L2 Tip Glow
+;   fake pin light

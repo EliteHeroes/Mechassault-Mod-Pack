@@ -1,0 +1,32 @@
+[fileinfo]
+file_version    = 2
+unique		= yes
+;MAXPort version 1.16.0.110
+;Created on Thu Dec 20 18:11:13 2001
+
+
+[material]
+type       = BASE
+name           = "expl_test"
+amb_color      = 11, 11, 11
+diff_color     = 15, 235, 5
+selfillum_color= 0, 0, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = false
+shading       = none
+blending      = additive
+base             = "Pwrup_lightray.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+
+;animMaxFrameNum		= 5
+;animLoops		= -1
+;animBlendFrames		= 1
+;animRate		= .4 - .7
+;animPlaying		= true
+;animRandomStart		= 500

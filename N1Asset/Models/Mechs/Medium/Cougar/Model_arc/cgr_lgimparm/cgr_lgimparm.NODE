@@ -1,0 +1,118 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 12:56:42 2002
+
+
+[joint_luarmabove]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_luarm.node"
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000005, 0.00000021, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "joint_lgunabove.node"
+;child       = "Cgr_luarm.node"
+
+[joint_lgunabove]
+type         = NODE
+position     = -0.35000014, -0.69999933, -0.00000003
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_lgun.node"
+
+[joint_lgun]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 5
+;child       = "Cgr_lfgun.node"
+;child       = "Cgr_lgun.node"
+;child       = "Cgr_ldarm.node"
+;child       = "cgr_insidearm.node"
+;child       = "Effects.node"
+
+[Cgr_lfgun]
+type         = 3DOBJECT
+position     = -0.36031985, -1.27549660, 2.14626312
+rot_axis     = 1.00000000, 0.00000000, 0.00000000
+rot_angle    = 1.57079613
+scale        = 1.00000000, 0.99999958, 0.99999958
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_lfgun.mesh"
+
+[Cgr_lgun]
+type         = 3DOBJECT
+position     = -0.32485420, -0.91865540, 0.80566472
+rot_axis     = 1.00000000, 0.00000000, 0.00000000
+rot_angle    = 1.57079613
+scale        = 1.00000000, 0.99999958, 0.99999958
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_lgun.mesh"
+
+[Cgr_ldarm]
+type         = 3DOBJECT
+position     = -0.12098545, -0.07264555, 0.00795235
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_ldarm.mesh"
+
+[cgr_insidearm]
+type         = 3DOBJECT
+position     = -0.19392496, -0.27362680, 0.09123288
+rot_axis     = 0.00000001, -1.00000000, 0.00000010
+rot_angle    = 0.52359879
+scale        = 0.79022247, 0.79022247, 0.79022264
+num_children = 0
+num_meshes   = 1
+mesh         = "../cgr_insidearm.mesh"
+
+[Effects]
+type         = NODE
+position     = -0.29080874, -0.47390652, 0.01541541
+rot_axis     = -1.00000000, 0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 0.76923078, 0.76923078, 0.76923078
+num_children = 0
+
+[Cgr_luarm]
+type         = 3DOBJECT
+position     = -0.12027168, -0.21517733, 0.00044002
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Cgr_luarm.mesh"
+
+
+; Hierarchy dump:
+; joint_luarmabove
+;   joint_luarm
+;     joint_lgunabove
+;       joint_lgun
+;         Cgr_lfgun
+;         Cgr_lgun
+;         Cgr_ldarm
+;         cgr_insidearm
+;         Effects
+;     Cgr_luarm

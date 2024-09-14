@@ -1,0 +1,14 @@
+[material]
+name       = "Particle material"
+type       = BASE
+amb_color  = 46, 16, 16
+diff_color = 255, 255, 255
+spec_color = 0, 0, 0
+shininess  = 0
+opacity    = 1
+tiling     = U_MIRROR | V_MIRROR
+shading    = gouraud
+blending   = additive
+base       = "Shared_Spark.tif"
+
+

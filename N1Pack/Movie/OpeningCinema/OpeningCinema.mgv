@@ -1,0 +1,14 @@
+[Movie]
+Type	  = MOVIE
+ImageType = YUV2
+AudioType = 5.1
+region	  = true
+localized = true
+SrcPath   = "D:\Movie"
+file	  = MAOpCin.bik
+play	  = true
+loop	  = false
+
+
+
+

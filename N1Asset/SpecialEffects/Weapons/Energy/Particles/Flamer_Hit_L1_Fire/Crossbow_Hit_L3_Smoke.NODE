@@ -1,0 +1,20 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.15.0.109
+;Created by KWhitman
+;Created on Wed May 09 17:40:43 2001
+
+
+[Plane01]
+type         = facing
+position     = 0, 0, 0
+rot_axis     = -1, 0, 0
+rot_angle    = 8.42937e-008
+scale        = 1, 1, 1
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Plane02.mesh"
+
+
+; Hierarchy dump:
+; Plane02

@@ -1,0 +1,30 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sat Aug 03 17:10:55 2002
+
+
+[Javelin_Hit_L2]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "Javelin_Hit_L2_Flash.node"
+
+[Javelin_Hit_L2_Flash]
+type         = facing
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Javelin_Hit_L2_Flash.mesh"
+
+
+; Hierarchy dump:
+; Javelin_Hit_L2
+;   Javelin_Hit_L2_Flash

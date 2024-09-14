@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Thu Apr 25 16:38:48 2002
+
+
+[mesh]
+name       = "thr_ruarm"
+type       = INDEXEDLIST
+vertices   = "thr_ruarm.geomVert"
+faces      = "thr_ruarm.geomFace"
+material   = "../Materials/thr_missile_low_alt_MP08.mat"

@@ -1,0 +1,11 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 16,16
+file = "HUD_AirUnit_blp.tif"
+
+
+
+

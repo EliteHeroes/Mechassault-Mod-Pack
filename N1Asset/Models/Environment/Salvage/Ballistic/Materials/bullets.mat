@@ -1,0 +1,26 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by tzwica
+;Created on Sun Jul 21 14:53:43 2002
+
+
+[material]
+type       = ENV
+name           = "bullets"
+amb_color      = 40, 40, 40
+diff_color     = 255, 181, 49
+selfillum_color= 0, 0, 0
+shininess     = 40
+shin_strength = 2
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = normal
+base       = "details_011.tif"
+base_tiling        = U_WRAP | V_WRAP
+EnvMapType   = Uniform ;Masked or Modulated
+Reflectivity = 0.2
+
+

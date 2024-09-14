@@ -1,0 +1,64 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Fri Sep 20 11:17:58 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "Crossbow L3 Missile.node"
+;child       = "Crossbow L3 Glow.node"
+;child       = "Fake pin light.node"
+
+[Crossbow L3 Missile]
+type         = 3DOBJECT
+position     = -0.00396169, 0.02104195, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Crossbow L3 Missile.mesh"
+
+[Crossbow L3 Glow]
+type         = facing
+position     = 0.01186042, 0.01701055, -0.36353207
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Crossbow L3 Glow.mesh"
+
+[Fake pin light]
+type         = LIGHT
+position     = -0.00557120, 0.00000000, -0.00153890
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+light_type        = fake
+light_on          = yes
+light_color       = 255, 255, 255
+light_radius      = 1.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 5.00000000
+light_lightmap_max_height = 50.00000000
+light_lightmap_min_radius = 30.00000000
+light_lightmap_max_radius = 30.00000000
+light_lightmap_min_color  = 200, 200, 200
+light_lightmap_max_color  = 200, 200, 200
+
+
+; Hierarchy dump:
+; Root Node
+;   Crossbow L3 Missile
+;   Crossbow L3 Glow
+;   Fake pin light

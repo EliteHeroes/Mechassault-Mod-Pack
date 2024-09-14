@@ -1,0 +1,22 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "FULL_00000.tif"
+file = "FULL_00001.tif"
+file = "FULL_00002.tif"
+file = "FULL_00003.tif"
+file = "FULL_00004.tif"
+file = "FULL_00005.tif"
+file = "FULL_00006.tif"
+file = "FULL_00007.tif"
+file = "FULL_00008.tif"
+file = "FULL_00009.tif"
+file = "FULL_00010.tif"
+file = "FULL_00011.tif"
+file = "FULL_00012.tif"
+file = "FULL_00013.tif"
+file = "FULL_00014.tif"
+
+

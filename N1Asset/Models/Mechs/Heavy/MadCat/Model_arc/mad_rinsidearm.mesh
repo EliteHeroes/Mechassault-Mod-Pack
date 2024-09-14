@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 17:09:15 2002
+
+
+[mesh]
+name       = "mad_rinsidearm"
+type       = INDEXEDLIST
+vertices   = "../Model/mad_rgimparm/mad_rinsidearm.geomVert"
+faces      = "../Model/mad_rgimparm/mad_rinsidearm.geomFace"
+material   = "../Model/Materials/mech_gimparm.mat"

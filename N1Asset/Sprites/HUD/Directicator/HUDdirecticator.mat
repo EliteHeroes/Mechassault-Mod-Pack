@@ -1,0 +1,38 @@
+[fileinfo]
+file_version    = 2
+unique			= yes
+;MAXPort version 1.03
+;Created by Nllopis
+;Created on Tue Apr 03 09:14:55 2001
+
+
+[material]
+type       = ANIMATED
+name          = "Directicator"
+amb_color     = 0, 0, 0
+diff_color    = 128, 128, 128
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = alpha
+base             = "HUDdirecticator.tif"
+
+base_tiling      = U_CLAMP | V_CLAMP
+base_mipmapping  = no
+base_mipmap_bias = 0.0
+animMaxFrameNum	  	= 1		; not required, but please specify to keep spurious error messages down
+animLoops			= -1		; number of times the animation will loop before disappearing
+								; -1 is infinite
+animBlendFrames	= false			; blend smoothly between frames?
+								; intended for very slow moving animations to prevent frame snap.
+								; If this becomes a requirement, please let us know, and we'll try to schedule time
+								; to provide this extension.
+animRate			= 2 - 2		; min-max seconds per animation loop.  Both must be present
+								; this generates a rendom repeat rate between .5 and 2 seconds.
+								; to specify a fixed rate, set both numbers the same
+animPlaying			= yes		; use the global anim rate, or expect something specific to be set from outside
+								; ( ie, by the code ) this will normally be set to "true" or "yes".
+animRandomStart		= 0  		; random start time offset
+								; Mostly for use by the special effects system, if this number is specified, 
+								; the modelviewer will wait a random number between 0 and "n" seconds to start 							; displaying the object

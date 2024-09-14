@@ -1,0 +1,38 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Jul 25 08:35:29 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "Hammer_Fire_L1_Front_Smoke.node"
+;child       = "Hammer_Fire_L1_Rear_smoke.node"
+
+[Hammer_Fire_L1_Front_Smoke]
+type         = NODE
+position     = 0.00003433, 0.00004957, -0.07785483
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+[Hammer_Fire_L1_Rear_smoke]
+type         = NODE
+position     = 0.00003433, 0.00004957, -0.24951965
+rot_axis     = 0.00000001, 0.99306846, -0.11753740
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+
+; Hierarchy dump:
+; Root Node
+;   Hammer_Fire_L1_Front_Smoke
+;   Hammer_Fire_L1_Rear_smoke

@@ -1,0 +1,20 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Nov 01 12:45:18 2001
+
+
+[Shell]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000008
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Shell.mesh"
+
+
+; Hierarchy dump:
+; Shell

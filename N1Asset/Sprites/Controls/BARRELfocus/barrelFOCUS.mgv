@@ -1,0 +1,22 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "BARREL_00000.tif"
+file = "BARREL_00001.tif"
+file = "BARREL_00002.tif"
+file = "BARREL_00003.tif"
+file = "BARREL_00004.tif"
+file = "BARREL_00005.tif"
+file = "BARREL_00006.tif"
+file = "BARREL_00007.tif"
+file = "BARREL_00008.tif"
+file = "BARREL_00009.tif"
+file = "BARREL_00010.tif"
+file = "BARREL_00011.tif"
+file = "BARREL_00012.tif"
+file = "BARREL_00013.tif"
+file = "BARREL_00014.tif"
+
+

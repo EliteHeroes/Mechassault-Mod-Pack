@@ -1,0 +1,54 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 31 11:53:45 2002
+
+
+[Infantry Missile]
+type         = 3DOBJECT
+position     = -0.00396169, 0.02104195, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.42372882, 0.42372882, 0.42372882
+num_children = 2
+;child       = "Fake Pin Light.node"
+;child       = "Infantry Missile Glow.node"
+num_meshes   = 1
+mesh         = "Meshes/Infantry Missile.mesh"
+
+[Fake Pin Light]
+type         = LIGHT
+position     = 0.08882866, -0.04965901, 0.03632161
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 2.35999990, 2.35999990, 2.35999990
+num_children = 0
+light_type        = fake
+light_on          = yes
+light_color       = 255, 255, 255
+light_radius      = 1.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 5.00000000
+light_lightmap_max_height = 15.00000000
+light_lightmap_min_radius = 15.00000000
+light_lightmap_max_radius = 3.00000000
+light_lightmap_min_color  = 255, 255, 179
+light_lightmap_max_color  = 255, 255, 179
+
+[Infantry Missile Glow]
+type         = facing
+position     = 0.03734017, -0.00951412, -0.42094108
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 2.35999990, 2.35999990, 2.35999990
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Infantry Missile Glow.mesh"
+
+
+; Hierarchy dump:
+; Infantry Missile
+;   Fake Pin Light
+;   Infantry Missile Glow

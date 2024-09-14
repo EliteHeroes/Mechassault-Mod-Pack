@@ -1,4 +1,4 @@
-MechAssault - Rebalance Version 1.2.6
+MechAssault - Rebalance Version 1.2.7
 Provided by: MechDonald's
 Our Discord: https://discord.gg/yKpHC5EPzy
 **Change Notes**
@@ -20,13 +20,7 @@ Target Jamming:
 ------------------------------------------------------------------
 
 AMS:
- - Increased recharge time from 10secs to 11secs
- - More mechs equipped with AMS ability
-
-------------------------------------------------------------------
-
-Small AMS:
- - Recharge time = 13secs
+ - Increased recharge time from 10secs to 12secs
 
 ------------------------------------------------------------------
 
@@ -67,7 +61,7 @@ Animations:
 ------------------------------------------------------------------
 
 Getup/Knockdown:
- - Increased all mech get-up speed
+ - Increased all mech's get-up speed animation
 
 ------------------------------------------------------------------
 
@@ -84,7 +78,7 @@ Mech Respawn Timer:
 ------------------------------------------------------------------
 
 Forest Trees:
-- Health increased from 10000 to 750
+- Health decreased from 10000 to 750
 
 ------------------------------------------------------------------
 
@@ -96,7 +90,7 @@ Energy Weapons:
 ------------------------------------------------------------------
 
 Medium Laser:
- - Max Inaccuracy reduced from 0.2865 to 0.2
+ - Max inaccuracy reduced from 0.2865 to 0.2
  - Projectile speed increased from 2000 to 2900
  - Level 1
 	- Damage increased from 65 to 70
@@ -114,8 +108,8 @@ Medium Laser:
 ------------------------------------------------------------------
 
 Pulse Laser:
- - Min Inaccuracy reduced from 0.85 to 0
- - Max Inaccuracy reduced from 1.145 to 0.2
+ - Min inaccuracy reduced from 0.85 to 0
+ - Max inaccuracy reduced from 1.145 to 0.2
  - Projectile speed increased from 2000 to 2900
  - Level 1
 	- Damage increased from 15 to 16
@@ -157,7 +151,7 @@ Flamer:
 (NEW) Burst Laser:
  - Fire rate: 0.85
  - Burst fire rate: 0.07
- - Engage range: 550
+ - Engage range: 450
  - Max inaccuracy radius: 0.2
  - Projectile speed: 2900
  - Level 1
@@ -170,7 +164,7 @@ Flamer:
 	- Heat produced per shot: 5.5
 
  - Level 3
-	- Damage: 106
+	- Damage: 104
 	- Ammo: 30
 	- Heat produced per shot: 6
 
@@ -269,14 +263,14 @@ Javelin (LRM):
 	- Direct hit damage: 175
 	- Splash damage: 155
 	- Splash damage radius: 26
-	- Heat produced per shot: 8
+	- Heat produced per shot: 9
 
  - Level 2
 	- Direct hit damage: 200
 	- Splash damage: 180
 	- Splash damage radius: 28
 	- Ammo: 12
-	- Heat produced per shot: 9
+	- Heat produced per shot: 9.5
 
  - Level 3
 	- Direct hit damage: 225
@@ -312,15 +306,15 @@ Pilot:
 ------------------------------------------------------------------
 
 Pilot With Weapon:
- - Max Health: 15
+ - Max health: 15
  - Max run speed: 15
- - Infantry laser
- - Infantry missile
+ - Custom infantry laser - Level 1/2/3
+ - Custom infantry missile - Level 1/2/3
 
 ------------------------------------------------------------------
 
 Elemental:
- - Given cloak ability - Duration: 30secs | Recharge time: 15secs
+ - Given null signature ability - Duration: 30secs | Recharge time: 15secs
  - Max health increased from 1012 to 1525
  - Max run speed increased from 16 to 22
  - Jump jet duration increased from 2secs to 3secs
@@ -334,7 +328,7 @@ Elemental:
 
 Hybrid Armor:
  - Now has new alternate skins
- - Given target jammer ability - Duration: 6secs | Recharge time: 12secs
+ - Given target jamming ability - Duration: 6secs | Recharge time: 12secs
  - 1xLaser change to 2xLaser
  - 2xSRM change to 1xLRM
  - Max health increased from 500 to 1500
@@ -357,7 +351,7 @@ Light Mechs:
 ------------------------------------------------------------------
 
 Owens:
- - Target jammer ability (6secs)
+ - Target jamming ability (6secs)
  - Max health increased from 2946 to 2985
  - Max run speed increased from 45 to 48
  - Max heat capacity increased from 107 to 110
@@ -380,7 +374,7 @@ Hackman:
 ------------------------------------------------------------------
 
 (NEW) Grasshopper (Owens/Hackman variant):
- - AMS ability - Duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 12secs
  - Max health: 2985
  - Max run speed: 48
  - Heat cooling rate: 14
@@ -410,7 +404,7 @@ Raven:
 ------------------------------------------------------------------
 
 Corvus:
- - Target jammer ability - Duration: 12secs | Recharge time: 15secs
+ - Target jamming ability - Duration: 12secs | Recharge time: 15secs
  - 1xAuto cannon change to 1xGauss
  - Max health increased from 2600 to 3020
  - Max heat capacity increased from 107 to 110
@@ -425,7 +419,7 @@ Corvus:
 ------------------------------------------------------------------
 
 (NEW) Talon (Raven/Corvus variant):
- - AMS ability - Duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 12secs
  - Jump jet duration: 6secs
  - Max health: 3020
  - Max run speed: 42
@@ -501,7 +495,7 @@ Medium Mechs:
 ------------------------------------------------------------------
 
 Belial:
- - Given target jammer ability - Duration: 6secs | Recharge time: 20secs
+ - Given target jamming ability - Duration: 6secs | Recharge time: 20secs
  - 1xPulse laser change to 2xPulse laser
  - Max health increased from 3214 to 3420
  - Max heat capacity increased from 129 to 135
@@ -522,7 +516,7 @@ Uziel:
 ------------------------------------------------------------------
 
 (NEW) Mariel (Uziel/Belial variant):
- - Cloak ability - Duration: 30secs | Recharge time: 15secs
+ - Null signature ability - Duration: 30secs | Recharge time: 15secs
  - Jump jet duration: 6secs
  - Max health: 3420
  - Max run speed: 35
@@ -557,7 +551,7 @@ Vulture:
 ------------------------------------------------------------------
 
 Mad Dog:
- - Given target jammer ability (6secs)
+ - Given target jamming ability (6secs)
  - Max health increased from 3571 to 3725
  - 1xAuto cannon change to 2xAuto cannon
  - Max heat capacity increased from 143 to 150
@@ -568,7 +562,7 @@ Mad Dog:
 ------------------------------------------------------------------
 
 (NEW) Jackal (Vulture/Mad Dog variant):
- - Cloak ability - Duration: 30secs | Recharge time: 15secs
+ - Null signature ability - Duration: 30secs | Recharge time: 15secs
  - Jump jet duration: 5secs
  - Max health: 3725
  - Max run speed: 32
@@ -605,7 +599,7 @@ Bowman:
 ------------------------------------------------------------------
 
 (NEW) Hailstorm (Catapult/Bowman variant):
- - Cloak ability - Duration: 30secs | Recharge time: 15secs
+ - Null signature ability - Duration: 30secs | Recharge time: 15secs
  - Max health: 3825
  - Max run speed: 32
  - Heat cooling rate: 18
@@ -638,7 +632,7 @@ Hellbringer:
 ------------------------------------------------------------------
 
 Loki:
- - Cloak ability (40secs)
+ - Null signature ability (40secs)
  - 2xPulse lasers change to 2xLasers
  - Max health increased from 3929 to 4055
  - Max heat capacity increased from 157 to 160
@@ -649,7 +643,7 @@ Loki:
 ------------------------------------------------------------------
 
 (NEW) Vortex (Hellbringer/Loki variant):
- - AMS ability - Duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 12secs
  - Max health: 4055
  - Max run speed: 34
  - Heat cooling rate: 14
@@ -668,7 +662,7 @@ Weapon Loadout:
 ------------------------------------------------------------------
 
 Thor:
- - Target jammer ability (6secs)
+ - Target jamming ability (6secs)
  - Max health increased from 3929 to 4135
  - Max run speed increased from 30 to 37
  - Max heat capacity increased from 157 to 170
@@ -695,7 +689,7 @@ Summoner:
  ------------------------------------------------------------------
 
 (NEW) Thanatos (Thor/Summoner variant):
- - AMS ability - Duration: 4secs | Recharge time: 11secs
+ - AMS ability - Duration: 4secs | Recharge time: 12secs
  - Max health: 4135
  - Max run speed: 34
  - Heat cooling rate: 14
@@ -755,8 +749,8 @@ Prometheus:
 ------------------------------------------------------------------
 
 (NEW) Warlord (Atlas/Prometheus variant):
- - Cloak ability - Duration: 30secs | Recharge time: 15secs
- - Max health: 5300
+ - Null signature ability - Duration: 30secs | Recharge time: 15secs
+ - Max health: 5350
  - Max run speed: 30
  - Heat cooling rate: 17
  - Max heat capacity: 200
@@ -794,7 +788,7 @@ Ymir:
 ------------------------------------------------------------------
 
 (NEW) Bleeding Star (Ragnarok/Ymir variant):
- - Alt Shield ability - Duration: 4secs | Recharge time: 8secs
+ - Alt shield ability - Duration: 4secs | Recharge time: 8secs
  - Max health: 5075
  - Max run speed: 28
  - Heat cooling rate: 19
@@ -803,7 +797,7 @@ Ymir:
 Salvage Drops:
  - 100T Armor
  - Energy Weapon
- - ballistic Weapon
+ - Ballistic Weapon
  - Missile Weapon
 
 Weapon Loadout:

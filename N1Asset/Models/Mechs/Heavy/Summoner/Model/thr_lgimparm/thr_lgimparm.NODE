@@ -1,0 +1,110 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Thu Apr 25 16:28:12 2002
+
+
+[joint_luarmabove]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_luarm.node"
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 7
+;child       = "Effects.node"
+;child       = "thr_linsidearm2.node"
+;child       = "thr_linsidearm.node"
+;child       = "thr_lgun.node"
+;child       = "thr_lelbow.node"
+;child       = "thr_luarm.node"
+;child       = "thr_lfgun.node"
+
+[Effects]
+type         = NODE
+position     = -0.71293157, -1.68079388, 0.25795639
+rot_axis     = -1.00000000, 0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+[thr_linsidearm2]
+type         = 3DOBJECT
+position     = -0.71992230, -1.38105464, 0.25754112
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_linsidearm2.mesh"
+
+[thr_linsidearm]
+type         = 3DOBJECT
+position     = -0.79787040, -1.60292399, 0.13056134
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_linsidearm.mesh"
+
+[thr_lgun]
+type         = 3DOBJECT
+position     = -1.25139809, -1.85169184, 0.96118957
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_lgun.mesh"
+
+[thr_lelbow]
+type         = 3DOBJECT
+position     = -0.57807910, -1.55386150, 0.19873863
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000008
+scale        = 1.00000000, 0.99999994, 0.99999994
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_lelbow.mesh"
+
+[thr_luarm]
+type         = 3DOBJECT
+position     = -0.55624127, -0.33935452, 0.00665479
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_luarm.mesh"
+
+[thr_lfgun]
+type         = 3DOBJECT
+position     = -1.25431037, -1.81176758, 2.11274838
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "thr_lfgun.mesh"
+
+
+; Hierarchy dump:
+; joint_luarmabove
+;   joint_luarm
+;     Effects
+;     thr_linsidearm2
+;     thr_linsidearm
+;     thr_lgun
+;     thr_lelbow
+;     thr_luarm
+;     thr_lfgun

@@ -1,0 +1,19 @@
+[fileinfo]
+file_version    = 2
+
+
+[material]
+type       = BASE
+name           = "ShadowBlob"
+amb_color      = 26, 26, 26
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 0.3
+two_sided     = false
+shading       = none
+blending      = subtractive
+base             = "blob.tif"
+base_tiling        = U_CLAMP | V_CLAMP
+correct_shading = true
+

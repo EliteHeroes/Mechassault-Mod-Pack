@@ -1,0 +1,22 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "CHAR_00000.tif"
+file = "CHAR_00001.tif"
+file = "CHAR_00002.tif"
+file = "CHAR_00003.tif"
+file = "CHAR_00004.tif"
+file = "CHAR_00005.tif"
+file = "CHAR_00006.tif"
+file = "CHAR_00007.tif"
+file = "CHAR_00008.tif"
+file = "CHAR_00009.tif"
+file = "CHAR_00010.tif"
+file = "CHAR_00011.tif"
+file = "CHAR_00012.tif"
+file = "CHAR_00013.tif"
+file = "CHAR_00014.tif"
+
+

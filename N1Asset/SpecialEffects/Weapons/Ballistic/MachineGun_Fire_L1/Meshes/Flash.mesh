@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Mon Jul 29 16:32:28 2002
+
+
+[mesh]
+name       = "Flash"
+type       = INDEXEDLIST
+vertices   = "Flash.geomVert"
+faces      = "Flash.geomFace"
+material   = "../Materials/MachineGun_Fire_L1_Flash1.mat"

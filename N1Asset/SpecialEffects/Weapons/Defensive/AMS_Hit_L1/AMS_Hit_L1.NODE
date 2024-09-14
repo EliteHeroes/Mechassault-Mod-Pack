@@ -1,0 +1,42 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sat Sep 14 14:16:38 2002
+
+
+[AMS Hit]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "AMS_Flash.node"
+;child       = "AMS Glow.node"
+
+[AMS_Flash]
+type         = 3DOBJECT
+position     = 0.01970443, 0.04604489, 0.00000003
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000010
+scale        = 1.00000000, 0.99999994, 0.99999994
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AMS_Flash.mesh"
+
+[AMS Glow]
+type         = 3DOBJECT
+position     = 0.01186042, 0.01701055, -0.00697878
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AMS Glow.mesh"
+
+
+; Hierarchy dump:
+; AMS Hit
+;   AMS_Flash
+;   AMS Glow

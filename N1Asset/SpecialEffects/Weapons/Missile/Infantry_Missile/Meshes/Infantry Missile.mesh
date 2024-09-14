@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 31 11:53:45 2002
+
+
+[mesh]
+name       = "Infantry Missile"
+type       = INDEXEDLIST
+vertices   = "Infantry Missile.geomVert"
+faces      = "Infantry Missile.geomFace"
+material   = "../Materials/Infantry_Missile.mat"

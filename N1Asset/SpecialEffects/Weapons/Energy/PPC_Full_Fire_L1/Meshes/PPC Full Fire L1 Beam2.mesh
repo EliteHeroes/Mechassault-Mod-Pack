@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 09:36:17 2002
+
+
+[mesh]
+name       = "PPC Full Fire L1 Beam2"
+type       = INDEXEDLIST
+vertices   = "PPC Full Fire L1 Beam2.geomVert"
+faces      = "PPC Full Fire L1 Beam2.geomFace"
+material   = "../Materials/PPC _Full_Fire_L1 Elec3.mat"

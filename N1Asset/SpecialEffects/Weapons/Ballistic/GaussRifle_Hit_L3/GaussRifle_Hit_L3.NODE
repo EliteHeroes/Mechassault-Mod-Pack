@@ -1,0 +1,30 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Aug 01 14:37:29 2002
+
+
+[GaussRifle Hit L3]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "Gauss Rifle Hit L3 Flash.node"
+
+[Gauss Rifle Hit L3 Flash]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 1.57079613
+scale        = 1.00000000, 0.99999988, 0.99999988
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Gauss Rifle Hit L3 Flash.mesh"
+
+
+; Hierarchy dump:
+; GaussRifle Hit L3
+;   Gauss Rifle Hit L3 Flash

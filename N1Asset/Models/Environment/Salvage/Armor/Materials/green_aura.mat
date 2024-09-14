@@ -1,0 +1,22 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by tzwica
+;Created on Sun Jul 21 14:59:31 2002
+
+
+[material]
+type       = SOLID
+name           = "green_aura"
+amb_color      = 23, 23, 23
+diff_color     = 50, 100, 60
+selfillum_color= 0, 0, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 0, 0, 0
+opacity       = 0.2
+two_sided     = false
+shading       = gouraud
+blending      = additive
+
+

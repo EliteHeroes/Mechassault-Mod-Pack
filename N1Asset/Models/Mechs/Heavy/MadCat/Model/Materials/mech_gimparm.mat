@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 16:56:03 2002
+
+
+[material]
+type       = BASE
+name           = "Mech_Gimparm"
+amb_color      = 25, 25, 25
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = normal
+base             = "Mech_Gimparm.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

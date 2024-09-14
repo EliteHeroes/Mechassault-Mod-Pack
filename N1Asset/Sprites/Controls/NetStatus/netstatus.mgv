@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "netstatus01.tif"
+file = "netstatus02.tif"
+file = "netstatus03.tif"
+file = "netstatus04.tif"
+

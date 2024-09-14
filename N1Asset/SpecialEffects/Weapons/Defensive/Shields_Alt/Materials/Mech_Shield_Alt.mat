@@ -1,0 +1,25 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 17 12:43:29 2002
+
+
+[material]
+type       = BASE
+name           = "Mech_Shield_Alt"
+amb_color      = 0, 0, 0
+diff_color     = 0, 0, 0
+selfillum_color= 0, 0, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = true
+shading       = gouraud
+blending      = additive
+base             = "cloudy_alt.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+

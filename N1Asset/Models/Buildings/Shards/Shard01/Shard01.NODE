@@ -1,0 +1,20 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Mon Jun 10 20:09:46 2002
+
+
+[node]
+type         = 3DOBJECT
+name         = "Shard01"
+position     = 0, 0, 0
+rot_axis     = 1, 0, 0
+rot_angle    = 0
+scale        = 1, 1, 1
+num_meshes   = 1
+mesh         = "Meshes/Shard01.mesh"
+num_children = 0
+
+; Hierarchy dump:
+; Box02

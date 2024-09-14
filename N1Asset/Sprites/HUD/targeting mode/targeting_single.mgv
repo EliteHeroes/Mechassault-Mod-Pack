@@ -1,0 +1,8 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 2
+file = "targeting_single.tif"
+file = "targeting_single_yellow.tif"
+

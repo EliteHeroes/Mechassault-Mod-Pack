@@ -1,0 +1,54 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 16:49:46 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "PPC_Full_Hit_L3.node"
+;child       = "PPC Full Hit L3 Sphere2.node"
+;child       = "PPC Full Hit L3 Sphere.node"
+
+[PPC_Full_Hit_L3]
+type         = facing
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC_Full_Hit_L3.mesh"
+
+[PPC Full Hit L3 Sphere2]
+type         = 3DOBJECT
+position     = -0.00067110, -0.02907085, 0.07895653
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Hit L3 Sphere2.mesh"
+
+[PPC Full Hit L3 Sphere]
+type         = 3DOBJECT
+position     = -0.00067110, -0.02907085, 0.07895653
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Full Hit L3 Sphere.mesh"
+
+
+; Hierarchy dump:
+; Root Node
+;   PPC_Full_Hit_L3
+;   PPC Full Hit L3 Sphere2
+;   PPC Full Hit L3 Sphere

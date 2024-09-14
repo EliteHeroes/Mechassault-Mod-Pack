@@ -1,0 +1,30 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 31 10:59:45 2002
+
+
+[Infantry_Missile_Hit]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "Infantry_Missile_Hit_Flash.node"
+
+[Infantry_Missile_Hit_Flash]
+type         = facing
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Infantry_Missile_Hit_Flash.mesh"
+
+
+; Hierarchy dump:
+; Infantry_Missile_Hit
+;   Infantry_Missile_Hit_Flash

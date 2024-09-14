@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Aug 01 14:38:44 2002
+
+
+[mesh]
+name       = "Gauss Rifle Hit L2 Flash"
+type       = INDEXEDLIST
+vertices   = "Gauss Rifle Hit L2 Flash.geomVert"
+faces      = "Gauss Rifle Hit L2 Flash.geomFace"
+material   = "../Materials/GaussRifle_Hit_L2_Flash.mat"

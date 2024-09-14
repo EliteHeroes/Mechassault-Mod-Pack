@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Mon Jul 22 18:12:03 2002
+
+
+[mesh]
+name       = "Javelin L1 Missile"
+type       = INDEXEDLIST
+vertices   = "Javelin L1 Missile.geomVert"
+faces      = "Javelin L1 Missile.geomFace"
+material   = "../Materials/Javelin L1 Missile.mat"

@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 64,16
+file = "UPstatic.tif"
+file = "UPpressed.tif"
+
+

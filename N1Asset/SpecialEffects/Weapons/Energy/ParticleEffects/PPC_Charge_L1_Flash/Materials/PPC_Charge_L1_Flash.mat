@@ -1,0 +1,32 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.14.0.108
+;Created by Kwhitman
+;Created on Sat May 05 16:25:05 2001
+
+
+[material]
+type       = BASE
+name           = "BigExplosionNormal"
+amb_color      = 11, 11, 11
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = additive
+base             = "PPC_Charge_Flash.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+
+;animMaxFrameNum	  	= 8
+;animLoops		= -1
+;animBlendFrames		= 0
+;animRate		= .4 - .4
+;animPlaying		= true
+;animRandomStart		= 0
+
+

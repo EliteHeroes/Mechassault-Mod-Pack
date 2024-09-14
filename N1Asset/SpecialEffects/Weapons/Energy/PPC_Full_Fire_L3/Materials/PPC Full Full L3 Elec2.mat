@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 17:40:29 2002
+
+
+[material]
+type       = BASE
+name           = "PPC Full Full L3 Elec2"
+amb_color      = 83, 30, 41
+diff_color     = 255, 255, 255
+selfillum_color= 174, 0, 255
+shininess     = 0
+opacity       = 1
+two_sided     = true
+shading       = gouraud
+blending      = additive
+base             = "PPC_Elec4.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

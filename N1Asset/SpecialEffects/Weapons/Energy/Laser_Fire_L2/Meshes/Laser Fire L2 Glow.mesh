@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Jul 30 20:51:08 2002
+
+
+[mesh]
+name       = "Laser Fire L2 Glow"
+type       = INDEXEDLIST
+vertices   = "Laser Fire L2 Glow.geomVert"
+faces      = "Laser Fire L2 Glow.geomFace"
+material   = "../Materials/Laser Fire L2.mat"

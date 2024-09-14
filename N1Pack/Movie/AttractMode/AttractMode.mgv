@@ -1,0 +1,13 @@
+[Movie]
+Type	  = MOVIE					; MOVIE or SPRITE
+ImageType = YUV2
+AudioType = 5.1						; mono, stereo, 5.1, 5.0, 4.0, 2.0, 1.0, none
+SrcPath	  = "D:\Movie"
+file	  = Attract.bik
+region	  = true
+play	  = true
+loop	  = false
+
+
+
+

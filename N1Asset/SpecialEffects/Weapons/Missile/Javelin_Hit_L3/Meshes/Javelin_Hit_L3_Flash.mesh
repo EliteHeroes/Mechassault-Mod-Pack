@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sat Aug 03 17:17:06 2002
+
+
+[mesh]
+name       = "Javelin_Hit_L3_Flash"
+type       = INDEXEDLIST
+vertices   = "Javelin_Hit_L3_Flash.geomVert"
+faces      = "Javelin_Hit_L3_Flash.geomFace"
+material   = "../Materials/Javelin_Hit_L3_Flash.mat"

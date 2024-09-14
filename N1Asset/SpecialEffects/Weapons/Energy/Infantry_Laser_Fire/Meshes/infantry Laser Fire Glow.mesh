@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 31 09:49:00 2002
+
+
+[mesh]
+name       = "infantry Laser Fire Glow"
+type       = INDEXEDLIST
+vertices   = "infantry Laser Fire Glow.geomVert"
+faces      = "infantry Laser Fire Glow.geomFace"
+material   = "../Materials/Infantry Laser Fire .mat"

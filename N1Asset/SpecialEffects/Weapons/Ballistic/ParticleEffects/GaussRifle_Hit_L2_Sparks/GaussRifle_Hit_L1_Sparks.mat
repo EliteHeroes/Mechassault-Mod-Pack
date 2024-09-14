@@ -1,0 +1,14 @@
+
+[material]
+name       = "Particle material"
+type       = BASE
+amb_color  = 45, 16, 16
+diff_color = 255, 255, 255
+spec_color = 229, 229, 229
+shininess  = 0.25
+opacity    = 1
+tiling     = U_MIRROR | V_MIRROR
+shading    = gouraud
+blending   = additive
+base       = "Laserhit_spark.tif"
+

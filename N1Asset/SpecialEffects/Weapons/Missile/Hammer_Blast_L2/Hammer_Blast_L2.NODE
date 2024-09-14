@@ -1,0 +1,54 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Aug 07 20:11:07 2002
+
+
+[Hammer Blast L2 ]
+type         = NODE
+position     = 0.00010414, -0.26238060, -0.01227341
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "Hammer Blast L2 Flash.node"
+;child       = "Hammer Blast L2 Glow 1.node"
+;child       = "Hammer Blast_L2 Glow 2.node"
+
+[Hammer Blast L2 Flash]
+type         = facing
+position     = 0.00000000, 3.31724215, 0.00000015
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Hammer Blast L2 Flash.mesh"
+
+[Hammer Blast L2 Glow 1]
+type         = 3DOBJECT
+position     = -0.00067110, -0.14946091, 0.07895651
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Hammer Blast L2 Glow 1.mesh"
+
+[Hammer Blast_L2 Glow 2]
+type         = 3DOBJECT
+position     = -0.00067110, -0.14946091, 0.07895651
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Hammer Blast_L2 Glow 2.mesh"
+
+
+; Hierarchy dump:
+; Hammer Blast L2 
+;   Hammer Blast L2 Flash
+;   Hammer Blast L2 Glow 1
+;   Hammer Blast_L2 Glow 2

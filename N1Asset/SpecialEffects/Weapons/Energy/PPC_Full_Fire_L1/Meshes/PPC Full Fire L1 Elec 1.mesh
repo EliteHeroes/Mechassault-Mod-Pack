@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 09:36:17 2002
+
+
+[mesh]
+name       = "PPC Full Fire L1 Elec 1"
+type       = INDEXEDLIST
+vertices   = "PPC Full Fire L1 Elec 1.geomVert"
+faces      = "PPC Full Fire L1 Elec 1.geomFace"
+material   = "../Materials/PPC Full Fire L1 Elec1.mat"

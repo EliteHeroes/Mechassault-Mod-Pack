@@ -1,0 +1,10 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+size = 16,16
+file = "smRIGHTstatic.tif"
+file = "smRIGHTpressed.tif"
+
+

@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by czalek
+;Created on Fri Aug 16 15:19:01 2002
+
+
+[mesh]
+name       = "reticle shape03"
+type       = INDEXEDLIST
+vertices   = "reticle shape03.geomVert"
+faces      = "reticle shape03.geomFace"
+material   = "../Materials/3D Reticle.mat"

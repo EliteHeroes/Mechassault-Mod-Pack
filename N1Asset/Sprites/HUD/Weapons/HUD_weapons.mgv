@@ -1,0 +1,42 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+
+file = "acannon_1.tif"
+file = "acannon_2.tif"
+file = "acannon_3.tif"
+file = "crossbow_1.tif"
+file = "crossbow_2.tif"
+file = "crossbow_3.tif"
+file = "gaussrifle_1.tif"
+file = "gaussrifle_2.tif"
+file = "gaussrifle_3.tif"
+file = "javelin_1.tif"
+file = "javelin_2.tif"
+file = "javelin_3.tif"
+file = "laser_1.tif"
+file = "laser_2.tif"
+file = "laser_3.tif"
+file = "machinegun_1.tif"
+file = "machinegun_2.tif"
+file = "machinegun_3.tif"
+file = "ppc_1.tif"
+file = "ppc_2.tif"
+file = "ppc_3.tif"
+file = "pulselaser_1.tif"
+file = "pulselaser_2.tif"
+file = "pulselaser_3.tif"
+file = "warhammer_1.tif"
+file = "warhammer_2.tif"
+file = "warhammer_3.tif"
+file = "lavagun_1.tif"
+file = "lavagun_2.tif"
+file = "lavagun_3.tif"
+file = "flamer_1.tif"
+file = "flamer_2.tif"
+file = "flamer_3.tif"
+
+
+

@@ -1,0 +1,11 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+
+file = "jumpjet24.tif"
+
+
+
+

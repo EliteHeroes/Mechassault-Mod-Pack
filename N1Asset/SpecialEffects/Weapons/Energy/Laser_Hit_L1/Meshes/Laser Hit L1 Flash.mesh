@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Mon Sep 16 14:36:11 2002
+
+
+[mesh]
+name       = "Laser Hit L1 Flash"
+type       = INDEXEDLIST
+vertices   = "Laser Hit L1 Flash.geomVert"
+faces      = "Laser Hit L1 Flash.geomFace"
+material   = "../Materials/Laser Hit L1.mat"

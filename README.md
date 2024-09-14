@@ -1,6 +1,6 @@
 # Mechassault Mod Pack
 
-This mod pack is a compilation of several different mods for the first Mechassault game, aimed at improving the overall playing experience. Adding a huge number of new maps across all game modes, various new mech variants, and a carefully tuned multiplayer, just to name a few new additions. Please note that this does not completely replace the original version of the game. Once installed, you'll have an in-game option to toggle the mods on or off at will. To install and play, it is recommended to download the [latest release](https://github.com/EliteHeroes/Mechassault-Mod-Pack/releases) and follow the install guide.
+This mod pack is a compilation of several different mods for the first Mechassault game, aimed at improving the overall playing experience. Adding a huge number of new maps across all game modes, various new mech variants, and a carefully tuned multiplayer, just to name a few new additions. Please note that this does not completely replace the original version of the game. Once installed, you'll have an in-game option to toggle the mods on or off at will. To install and play, it is recommended to download the [latest release](https://github.com/EliteHeroes/Mechassault-Mod-Pack/releases) and follow the install guide found below.
 
 ![](/Screenshots/Pic10.png)
 
@@ -13,10 +13,10 @@ This mod pack is a compilation of several different mods for the first Mechassau
 
 ### Installing
 
-1. Download the latest version of the Mod Pack from the '[Releases](https://github.com/EliteHeroes/Mechassault-Mod-Pack/releases)' page and extract the contents from 'Mechassault Mod Pack.zip'.
+1. Download the latest version of the Mod Pack from the '[Releases](https://github.com/EliteHeroes/Mechassault-Mod-Pack/releases)' page and extract the contents from 'Mechassault.Mod.Pack.zip'.
 2. Open your Mechassault game folder. For console, you can do this using an FTP program to connect a modded Xbox to a PC.
-3. Drag and drop all the original files inside the 'Mod Pack' folder into the Mechassault game folder, agreeing to replace the files.
-4. If necessary, you can now convert the game files to an XISO format so emulators such as [Xemu](https://xemu.app) can read the new game data.
+3. Drag and drop all the files from inside the 'Mod Pack' folder into the Mechassault game folder, agreeing to replace the files.
+4. If necessary, you can now convert the game folder to an XISO format so emulators such as [Xemu](https://xemu.app) can read the new game data.
 5. And that's it! You'll now be able to select 'LAUNCH MODS' in the options menu of the game, or you can start the modded game directly with the new N1Launch.xbe
 
 ### Help
@@ -42,7 +42,7 @@ If you're still having any problems with installing, feel free to leave a messag
 
 ### Editing Modded Files
 
-* If you wish to make you're own edits, you'll need to download a build from the release page as it contains all the necessary game files to start.
+* If you wish to make you're own edits, you'll either need to download a build from the release page or from this repository as it contains the core mod files to start.
 * Also make sure to check out the [MGF Explorer](https://github.com/LarvalExtract/MGF-Explorer) Github page by [LarvalExtract](https://github.com/LarvalExtract) for more information on opening and editing Mechassault's game files.
 
 ## For More Information

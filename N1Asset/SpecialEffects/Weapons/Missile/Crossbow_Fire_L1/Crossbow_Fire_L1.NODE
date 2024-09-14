@@ -1,0 +1,38 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 24 08:39:18 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "Crossbow Fire L1 FrontSmoke.node"
+;child       = "Crossbow_Fire_L1_RearSmoke.node"
+
+[Crossbow Fire L1 FrontSmoke]
+type         = NODE
+position     = 0.00003433, 0.00004957, -0.07785483
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+[Crossbow_Fire_L1_RearSmoke]
+type         = NODE
+position     = 0.00003433, 0.00004957, -0.24951965
+rot_axis     = 0.00000001, 0.99306846, -0.11753740
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+
+; Hierarchy dump:
+; Root Node
+;   Crossbow Fire L1 FrontSmoke
+;   Crossbow_Fire_L1_RearSmoke

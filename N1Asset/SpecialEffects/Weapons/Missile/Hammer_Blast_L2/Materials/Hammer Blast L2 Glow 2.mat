@@ -1,0 +1,26 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Aug 07 20:11:08 2002
+
+
+[material]
+type       = BASE
+name           = "Hammer Blast L2 Glow 2"
+amb_color      = 11, 11, 11
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = true
+shading       = none
+blending      = additive
+base             = "Hammer_Hit_L1_Glow2.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

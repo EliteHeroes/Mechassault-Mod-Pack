@@ -1,0 +1,64 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Fri Jul 19 09:28:10 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "Pulse Laser L2 Glow.node"
+;child       = "Pulse laser L2 Tip Glow.node"
+;child       = " Pulse Laser L2 fake pin light.node"
+
+[Pulse Laser L2 Glow]
+type         = 3DOBJECT
+position     = -0.00025754, -0.00675229, 0.89595550
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Pulse Laser L2 Glow.mesh"
+
+[Pulse laser L2 Tip Glow]
+type         = facing
+position     = -0.00002333, -0.00675229, -0.18935485
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/Pulse laser L2 Tip Glow.mesh"
+
+[ Pulse Laser L2 fake pin light]
+type         = LIGHT
+position     = 0.00756517, 0.00000000, 0.02552742
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+light_type        = fake
+light_on          = yes
+light_color       = 255, 30, 0
+light_radius      = 1.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 5.00000000
+light_lightmap_max_height = 20.00000000
+light_lightmap_min_radius = 16.00000000
+light_lightmap_max_radius = 16.00000000
+light_lightmap_min_color  = 255, 42, 42
+light_lightmap_max_color  = 255, 42, 42
+
+
+; Hierarchy dump:
+; Root Node
+;   Pulse Laser L2 Glow
+;   Pulse laser L2 Tip Glow
+;    Pulse Laser L2 fake pin light

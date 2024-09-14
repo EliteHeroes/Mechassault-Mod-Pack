@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by czalek
+;Created on Wed Jul 17 15:03:21 2002
+
+
+[mesh]
+name       = "carat"
+type       = INDEXEDLIST
+vertices   = "carat.geomVert"
+faces      = "carat.geomFace"
+material   = "../Materials/CARAT.mat"

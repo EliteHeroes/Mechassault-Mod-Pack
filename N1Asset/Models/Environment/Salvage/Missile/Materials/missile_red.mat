@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by jpierce
+;Created on Tue Aug 20 10:11:09 2002
+
+
+[material]
+type       = BASE
+name           = "missile_red"
+amb_color      = 17, 17, 17
+diff_color     = 242, 242, 242
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = normal
+base             = "Salvage_Missile_red.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

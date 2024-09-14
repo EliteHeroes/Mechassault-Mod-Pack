@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Jul 24 15:05:48 2002
+
+
+[mesh]
+name       = "Pulse LaserFire L1 Flash"
+type       = INDEXEDLIST
+vertices   = "Pulse LaserFire L1 Flash.geomVert"
+faces      = "Pulse LaserFire L1 Flash.geomFace"
+material   = "../Materials/Pulse LaserFire L1.mat"

@@ -1,0 +1,98 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 11:50:32 2002
+
+
+[joint_luarmabove]
+type         = NODE
+position     = -0.21858323, -0.05580421, 0.07716117
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_luarm.node"
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 6
+;child       = "uzi_linsidearm.node"
+;child       = "Effects.node"
+;child       = "Uzi_luarm.node"
+;child       = "Uzi_lfgun.node"
+;child       = "Uzi_lgun.node"
+;child       = "uzi_lelbow.node"
+
+[uzi_linsidearm]
+type         = 3DOBJECT
+position     = -0.79861939, -0.24701469, -0.06135051
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../uzi_linsidearm.mesh"
+
+[Effects]
+type         = NODE
+position     = -0.96222246, -0.28387445, 0.00872974
+rot_axis     = -1.00000000, 0.00000000, 0.00000003
+rot_angle    = 3.14159274
+scale        = 0.76923072, 0.76923072, 0.76923078
+num_children = 0
+
+[Uzi_luarm]
+type         = 3DOBJECT
+position     = -0.16615608, 0.08862542, -0.00735197
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Uzi_luarm.mesh"
+
+[Uzi_lfgun]
+type         = 3DOBJECT
+position     = -2.01721191, -0.47967297, 2.13000774
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Uzi_lfgun.mesh"
+
+[Uzi_lgun]
+type         = 3DOBJECT
+position     = -2.00220871, -0.50098366, 0.37317181
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../Uzi_lgun.mesh"
+
+[uzi_lelbow]
+type         = 3DOBJECT
+position     = -1.04997075, -0.32537812, -0.00988465
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "../uzi_lelbow.mesh"
+
+
+; Hierarchy dump:
+; joint_luarmabove
+;   joint_luarm
+;     uzi_linsidearm
+;     Effects
+;     Uzi_luarm
+;     Uzi_lfgun
+;     Uzi_lgun
+;     uzi_lelbow

@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Wed Aug 21 08:48:02 2002
+
+
+[mesh]
+name       = "Hammer hit L3 Glow"
+type       = INDEXEDLIST
+vertices   = "Hammer hit L3 Glow.geomVert"
+faces      = "Hammer hit L3 Glow.geomFace"
+material   = "../Materials/Hammer Hit L3 Glow.mat"

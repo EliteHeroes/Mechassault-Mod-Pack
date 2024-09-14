@@ -1,0 +1,11 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 0.33
+size = 16,16
+file = "HUD_OBJon_blp_SS.tif"
+
+
+
+

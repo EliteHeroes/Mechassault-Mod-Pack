@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.15.0.109
+;Created by KWhitman
+;Created on Wed May 09 17:41:43 2001
+
+
+[mesh]
+name       = "Plane01"
+type       = INDEXEDLIST
+vertices   = "Plane02.geomVert"
+faces      = "Plane02.geomFace"
+material   = "../Materials/hammer_L2_Flaretrail.mat"

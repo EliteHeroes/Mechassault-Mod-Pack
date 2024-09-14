@@ -1,0 +1,64 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sat Sep 14 14:17:52 2002
+
+
+[AMS]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "AMS Glow.node"
+;child       = "fake pin light.node"
+;child       = "AMS_Flash.node"
+
+[AMS Glow]
+type         = 3DOBJECT
+position     = 0.01186042, 0.01701055, -0.00697878
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AMS Glow.mesh"
+
+[fake pin light]
+type         = LIGHT
+position     = 0.01017040, 0.00000000, 0.01478767
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+light_type        = fake
+light_on          = yes
+light_color       = 255, 255, 255
+light_radius      = 1.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 0.10000000
+light_lightmap_max_height = 25.00000000
+light_lightmap_min_radius = 25.00000000
+light_lightmap_max_radius = 25.00000000
+light_lightmap_min_color  = 245, 75, 0
+light_lightmap_max_color  = 245, 75, 0
+
+[AMS_Flash]
+type         = 3DOBJECT
+position     = 0.01970443, 0.04604489, 0.00000003
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000010
+scale        = 1.00000000, 0.99999994, 0.99999994
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AMS_Flash.mesh"
+
+
+; Hierarchy dump:
+; AMS
+;   AMS Glow
+;   fake pin light
+;   AMS_Flash

@@ -1,0 +1,76 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Tue Apr 23 17:44:06 2002
+
+
+[joint_ruarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 5
+;child       = "vtr_rinsidearm.node"
+;child       = "vtr_rfgun.node"
+;child       = "Effects.node"
+;child       = "vtr_rgun.node"
+;child       = "vtr_ruarm.node"
+
+[vtr_rinsidearm]
+type         = 3DOBJECT
+position     = 0.93260312, -0.77945042, 0.03165042
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_rinsidearm.mesh"
+
+[vtr_rfgun]
+type         = 3DOBJECT
+position     = 0.99949956, -1.38188601, 4.17701435
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.00100000, 0.00100000, 0.00100000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_rfgun.mesh"
+
+[Effects]
+type         = NODE
+position     = 1.06741285, -1.32751083, 0.00872970
+rot_axis     = -0.99144489, -0.13052614, -0.00000005
+rot_angle    = 3.14159274
+scale        = 0.76923084, 0.76923078, 0.76923072
+num_children = 0
+
+[vtr_rgun]
+type         = 3DOBJECT
+position     = 1.26349068, -1.43188763, 2.05311441
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.00100000, 0.00100000, 0.00100000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_rgun.mesh"
+
+[vtr_ruarm]
+type         = 3DOBJECT
+position     = 0.71616292, -0.67766476, -0.00183940
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "vtr_ruarm.mesh"
+
+
+; Hierarchy dump:
+; joint_ruarm
+;   vtr_rinsidearm
+;   vtr_rfgun
+;   Effects
+;   vtr_rgun
+;   vtr_ruarm

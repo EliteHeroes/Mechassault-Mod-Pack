@@ -1,0 +1,22 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by tzwica
+;Created on Sun Jul 21 14:53:43 2002
+
+
+[material]
+type       = SOLID
+name           = "aura_glow"
+amb_color      = 33, 33, 33
+diff_color     = 137, 110, 0
+selfillum_color= 0, 0, 0
+shininess     = 20
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 0.2
+two_sided     = false
+shading       = none
+blending      = additive
+
+

@@ -1,0 +1,17 @@
+[Movie]
+Type	  = MOVIE
+ImageType = X8R8G8B8
+AudioType = none
+file	  = FE_bkg.bik
+preload	  = true
+play	  = true
+loop	  = true
+
+
+
+
+
+
+
+
+

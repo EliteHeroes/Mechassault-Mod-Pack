@@ -1,0 +1,8 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "radio01.tif"
+file = "radio02.tif"
+

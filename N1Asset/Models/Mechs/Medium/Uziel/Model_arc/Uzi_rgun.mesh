@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 11:51:05 2002
+
+
+[mesh]
+name       = "Uzi_rgun"
+type       = INDEXEDLIST
+vertices   = "../Model/uzi_rgimparm/Uzi_rgun.geomVert"
+faces      = "../Model/uzi_rgimparm/Uzi_rgun.geomFace"
+material   = "../Model/Materials/uzi_guns_low_MP08.mat"

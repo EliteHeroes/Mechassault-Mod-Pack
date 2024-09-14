@@ -1,0 +1,54 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by tzwica
+;Created on Sun Jul 21 14:53:42 2002
+
+
+[ballistic_salvage]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.14999998, 1.14999998, 1.14999998
+num_children = 3
+;child       = "ammocase.node"
+;child       = "shells.node"
+;child       = "aura.node"
+
+[ammocase]
+type         = 3DOBJECT
+position     = 0.12019596, -0.23044419, -0.00001828
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.25999999, 1.25999999, 1.25999999
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/ammocase.mesh"
+
+[shells]
+type         = 3DOBJECT
+position     = -1.28094268, 1.20928204, -0.63644832
+rot_axis     = 1.00000000, 0.00000000, 0.00000000
+rot_angle    = 1.57079613
+scale        = 1.25999999, 1.25999951, 1.25999951
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/shells.mesh"
+
+[aura]
+type         = 3DOBJECT
+position     = -0.45202133, 0.80242902, -0.00001828
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.56239998, 1.24752474, 1.65059996
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/aura.mesh"
+
+
+; Hierarchy dump:
+; ballistic_salvage
+;   ammocase
+;   shells
+;   aura

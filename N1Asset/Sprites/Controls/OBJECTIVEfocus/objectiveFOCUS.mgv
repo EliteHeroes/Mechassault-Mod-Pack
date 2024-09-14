@@ -1,0 +1,22 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+file = "OBJECTIVE_00000.tif"
+file = "OBJECTIVE_00001.tif"
+file = "OBJECTIVE_00002.tif"
+file = "OBJECTIVE_00003.tif"
+file = "OBJECTIVE_00004.tif"
+file = "OBJECTIVE_00005.tif"
+file = "OBJECTIVE_00006.tif"
+file = "OBJECTIVE_00007.tif"
+file = "OBJECTIVE_00008.tif"
+file = "OBJECTIVE_00009.tif"
+file = "OBJECTIVE_00010.tif"
+file = "OBJECTIVE_00011.tif"
+file = "OBJECTIVE_00012.tif"
+file = "OBJECTIVE_00013.tif"
+file = "OBJECTIVE_00014.tif"
+
+

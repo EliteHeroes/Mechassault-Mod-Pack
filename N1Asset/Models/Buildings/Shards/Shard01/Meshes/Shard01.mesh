@@ -1,0 +1,6 @@
+[mesh]
+name       = Box02
+type       = INDEXEDLIST
+vertices   = "Box02.geomVert"
+faces      = "Box02.geomFace"
+material   = "../Materials/shard_new.mat"

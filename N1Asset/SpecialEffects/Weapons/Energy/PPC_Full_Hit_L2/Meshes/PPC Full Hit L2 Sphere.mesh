@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Aug 06 16:15:57 2002
+
+
+[mesh]
+name       = "PPC Full Hit L2 Sphere"
+type       = INDEXEDLIST
+vertices   = "PPC Full Hit L2 Sphere.geomVert"
+faces      = "PPC Full Hit L2 Sphere.geomFace"
+material   = "../Materials/PPC_Full_Hit_L2_Sphere.mat"

@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by jpierce
+;Created on Tue Jan 15 15:38:08 2002
+
+
+[mesh]
+name       = "Arrow"
+type       = INDEXEDLIST
+vertices   = "Arrow.geomVert"
+faces      = "Arrow.geomFace"
+material   = "../Materials/01 - Default.mat"

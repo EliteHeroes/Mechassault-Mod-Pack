@@ -1,0 +1,32 @@
+[fileinfo]
+file_version    = 2
+unique		= yes
+;MAXPort version 1.16.0.110
+;Created on Thu Dec 20 18:11:13 2001
+
+
+[material]
+type       = ANIMATED
+name           = "expl_test"
+amb_color      = 11, 11, 11
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+shin_strength = 0
+spec_color    = 229, 229, 229
+opacity       = 1
+two_sided     = false
+shading       = none
+blending      = additive
+base             = "Autocannon_Fire_L1_Flash.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+
+animMaxFrameNum		= 9
+animLoops		= 1
+animBlendFrames		= 0
+animRate		= .2 - .4
+animPlaying		= true
+animRandomStart		= 0

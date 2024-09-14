@@ -1,0 +1,100 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 17:09:14 2002
+
+
+[joint_ruarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 4
+;child       = "mad_rfgun.node"
+;child       = "mad_rbgun.node"
+;child       = "mad_rgunjoint.node"
+;child       = "mad_ruarm.node"
+
+[mad_rfgun]
+type         = 3DOBJECT
+position     = 1.18465495, -2.04834223, 3.41179180
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "mad_rfgun.mesh"
+
+[mad_rbgun]
+type         = 3DOBJECT
+position     = 1.23395848, -2.25112033, 1.12301075
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "Extra_RGun.node"
+num_meshes   = 1
+mesh         = "mad_rbgun.mesh"
+
+[Extra_RGun]
+type         = 3DOBJECT
+position     = -0.05212295, -0.26672530, -0.27312940
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Extra_RGun.mesh"
+
+[mad_rgunjoint]
+type         = 3DOBJECT
+position     = 1.18342483, -1.98879886, -0.02903512
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "mad_rgunjoint.mesh"
+
+[mad_ruarm]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -0.00000009, 0.00000004, -1.00000000
+rot_angle    = 0.08726646
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "mad_rinsidearm.node"
+;child       = "Effects.node"
+num_meshes   = 1
+mesh         = "mad_ruarm.mesh"
+
+[mad_rinsidearm]
+type         = 3DOBJECT
+position     = 1.43496525, -1.34404778, -0.14852333
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.99999982, 0.99999982, 0.99999976
+num_children = 0
+num_meshes   = 1
+mesh         = "mad_rinsidearm.mesh"
+
+[Effects]
+type         = NODE
+position     = 1.18462157, -1.59539175, -0.00000009
+rot_axis     = -1.00000000, 0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 0.99999994
+num_children = 0
+
+
+; Hierarchy dump:
+; joint_ruarm
+;   mad_rfgun
+;   mad_rbgun
+;     Extra_RGun
+;   mad_rgunjoint
+;   mad_ruarm
+;     mad_rinsidearm
+;     Effects

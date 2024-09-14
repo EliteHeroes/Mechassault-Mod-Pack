@@ -1,0 +1,78 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by tzwica
+;Created on Sun Jul 21 14:57:37 2002
+
+
+[energy_salvage]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.10000002, 1.10000002, 1.10000002
+num_children = 5
+;child       = "energy_module.node"
+;child       = "glow.node"
+;child       = "coreglow.node"
+;child       = "lower_glow.node"
+;child       = "aura.node"
+
+[energy_module]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.15097535, 0.92820609, 1.15097558
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/energy_module.mesh"
+
+[glow]
+type         = 3DOBJECT
+position     = -0.01034236, 3.03340006, 0.01395461
+rot_axis     = 0.00000000, 0.00000000, -1.00000000
+rot_angle    = 1.57079613
+scale        = 1.97963965, 1.97963965, 1.97963989
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/glow.mesh"
+
+[coreglow]
+type         = 3DOBJECT
+position     = 0.00000003, 1.29392385, 0.00000007
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.17209423, 0.82689118, 1.17209423
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/coreglow.mesh"
+
+[lower_glow]
+type         = 3DOBJECT
+position     = 0.00000000, 0.61807197, -0.00000003
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.17399490, 0.94677025, 1.17399502
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/lower_glow.mesh"
+
+[aura]
+type         = 3DOBJECT
+position     = 0.00000000, 1.32828093, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/aura.mesh"
+
+
+; Hierarchy dump:
+; energy_salvage
+;   energy_module
+;   glow
+;   coreglow
+;   lower_glow
+;   aura

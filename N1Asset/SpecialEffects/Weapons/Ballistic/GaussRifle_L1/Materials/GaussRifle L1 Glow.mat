@@ -1,0 +1,24 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Thu Jul 25 23:06:10 2002
+
+
+[material]
+type       = BASE
+name           = "GaussRifle L1 Glow"
+amb_color      = 25, 25, 25
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = true
+shading       = none
+blending      = additive
+base             = "GaussRifle_L1_Glow1.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

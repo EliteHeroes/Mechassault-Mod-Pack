@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Fri Jul 26 09:37:18 2002
+
+
+[mesh]
+name       = "GaussRifle L2 Glow"
+type       = INDEXEDLIST
+vertices   = "GaussRifle L2 Glow.geomVert"
+faces      = "GaussRifle L2 Glow.geomFace"
+material   = "../Materials/GaussRifle L2 Glow.mat"

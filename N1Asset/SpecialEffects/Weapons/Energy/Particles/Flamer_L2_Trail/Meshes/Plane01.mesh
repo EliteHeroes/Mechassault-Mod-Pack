@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.15.0.109
+;Created by KWhitman
+;Created on Wed May 09 17:41:44 2001
+
+
+[mesh]
+name       = "Plane01"
+type       = INDEXEDLIST
+vertices   = "Plane01.geomVert"
+faces      = "Plane01.geomFace"
+material   = "../Materials/flamer_L3_trail.mat"

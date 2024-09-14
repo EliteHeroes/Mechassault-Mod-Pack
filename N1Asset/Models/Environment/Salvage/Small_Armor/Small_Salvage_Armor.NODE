@@ -1,0 +1,42 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by tzwica
+;Created on Sun Jul 21 14:59:31 2002
+
+
+[armor_salvage]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.50000000, 0.50000000, 0.50000000
+num_children = 2
+;child       = "aura.node"
+;child       = "armorplates.node"
+
+[aura]
+type         = 3DOBJECT
+position     = 0.06471669, 2.20553517, -0.40122545
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.89660013, 1.89660013, 1.89660013
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/aura.mesh"
+
+[armorplates]
+type         = 3DOBJECT
+position     = 0.00000000, 2.33310699, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/armorplates.mesh"
+
+
+; Hierarchy dump:
+; armor_salvage
+;   aura
+;   armorplates

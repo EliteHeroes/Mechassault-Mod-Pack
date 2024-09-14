@@ -1,0 +1,14 @@
+[movie]
+type = sprite
+Play = true
+Loop = true
+FrameRate = 10
+
+file = "shield16.tif"
+file = "nullsig16.tif"
+file = "chaff16.tif"
+file = "targetjam16.tif"
+
+
+
+

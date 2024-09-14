@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sun Aug 18 18:54:05 2002
+
+
+[mesh]
+name       = "MachineGun_L3_Tracer"
+type       = INDEXEDLIST
+vertices   = "MachineGun_L3_Tracer.geomVert"
+faces      = "MachineGun_L3_Tracer.geomFace"
+material   = "../Materials/MachineGun_L3.mat"

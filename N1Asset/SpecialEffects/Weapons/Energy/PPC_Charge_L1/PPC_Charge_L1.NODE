@@ -1,0 +1,64 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Sun Aug 04 12:28:07 2002
+
+
+[Root Node]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 4
+;child       = "PPC Charge L1 Glow.node"
+;child       = "PPC Charge L1 Elec 2.node"
+;child       = "PPC Charge L1 GLow 3.node"
+;child       = "PPC Charge L1 FX.node"
+
+[PPC Charge L1 Glow]
+type         = facing
+position     = 0.00348046, -0.00282925, 0.09974872
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Charge L1 Glow.mesh"
+
+[PPC Charge L1 Elec 2]
+type         = 3DOBJECT
+position     = 0.02624130, 0.04334354, 0.22364849
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Charge L1 Elec 2.mesh"
+
+[PPC Charge L1 GLow 3]
+type         = 3DOBJECT
+position     = 0.02539789, 0.04811528, 0.24761662
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/PPC Charge L1 GLow 3.mesh"
+
+[PPC Charge L1 FX]
+type         = NODE
+position     = 0.00000000, 0.00350643, 0.10300570
+rot_axis     = 0.00000000, 1.00000000, 0.00000000
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+
+
+; Hierarchy dump:
+; Root Node
+;   PPC Charge L1 Glow
+;   PPC Charge L1 Elec 2
+;   PPC Charge L1 GLow 3
+;   PPC Charge L1 FX

@@ -1,0 +1,15 @@
+[material]
+type       = SOLID
+name       = "shard_new"
+amb_color  = 255, 255, 255
+diff_color = 255, 255, 255
+spec_color = 229, 229, 229
+shininess  = 0.0
+opacity    = 1
+shading    = gouraud
+blending   = normal
+
+
+
+
+
