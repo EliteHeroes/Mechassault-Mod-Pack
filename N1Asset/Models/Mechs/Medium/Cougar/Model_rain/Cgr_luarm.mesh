@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by adenham
+;Created on Mon Apr 22 12:56:42 2002
+
+
+[mesh]
+name       = "Cgr_luarm"
+type       = INDEXEDLIST
+vertices   = "../Model/cgr_lgimparm/Cgr_luarm.geomVert"
+faces      = "../Model/cgr_lgimparm/Cgr_luarm.geomFace"
+material   = "../Model/Materials/Cgr_Body_low_MP08.mat"
