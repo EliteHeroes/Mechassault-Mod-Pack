@@ -528,7 +528,7 @@ Salvage Drops:
  - Missile Weapon
 
 Weapon Loadout:
- - 2x Medium Laser
+ - 2x Burst Laser
  - 2x Machine Gun
  - 2x Mortar
 
@@ -677,6 +677,7 @@ Summoner:
  - Given AMS ability
  - 2xAuto cannon change to 3xAuto cannon
  - Max health increased from 3929 to 4135
+ - Jump jet duration increased from 5secs to 6secs
  - Max run speed increased from 30 to 34
  - Max heat capacity increased from 157 to 170
  - Jump jet speed increased from 20 to 25
