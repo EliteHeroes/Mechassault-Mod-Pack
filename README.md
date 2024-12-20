@@ -31,7 +31,7 @@ If you're still having any problems with installing, feel free to leave a messag
 
 ## Mods Included
 
-* Base Mod
+* [Base Mod](https://github.com/EliteHeroes/Mechassault-Base-Mod)
     * Fundamental changes to the base game, adding quality of life tweaks and improvements such as a campaign dev level loader, more time and point limit options for multiplayer, and much more.
 * Grinder Enhanced
     * Adds new alternate versions of existing Grinder maps, with new friendly and enemy encounters! As well as playable AI in the forms of a tank and helicopter!

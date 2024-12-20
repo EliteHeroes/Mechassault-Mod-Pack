@@ -2,11 +2,11 @@
 Type	  = MOVIE
 ImageType = YUV2
 AudioType = 5.1
-preload   = false
-region	  = true
-SrcPath	  = "D:\Movie"
-file	  = Blank.bik
-play	  = false
+preload   = true
+region	  = false
+;SrcPath	  = "D:\Movie"
+file	  = MAIntro.bik
+play	  = true
 
 
 
