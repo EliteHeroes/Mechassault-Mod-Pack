@@ -1,0 +1,13 @@
+[fileinfo]
+file_version    = 2
+;MAXPort version 1.16.0.110
+;Created by kwhitman
+;Created on Tue Apr 02 10:51:42 2002
+
+
+[mesh]
+name       = "Outer Glow"
+type       = INDEXEDLIST
+vertices   = "Outer Glow.geomVert"
+faces      = "Outer Glow.geomFace"
+material   = "../Materials/ppc_weak_l12.mat"

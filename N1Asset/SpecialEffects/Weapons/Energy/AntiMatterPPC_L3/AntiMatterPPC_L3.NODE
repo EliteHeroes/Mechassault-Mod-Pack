@@ -1,0 +1,85 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[Default]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = 0.00000000, 1.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "antimatterppc_l1.node"
+;child       = "ppc_core_out01.node"
+
+[antimatterppc_l1]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "ppc_core_out02.node"
+;child       = "hardware_light.node"
+
+[ppc_core_out02]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000040, -0.00000002
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/ppc_core_out02.mesh"
+
+[hardware_light]
+type         = LIGHT
+position     = -0.00610933, 0.00000000, 0.01125485
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+light_type        = point
+light_on          = yes
+light_color       = 215, 186, 249
+light_radius      = 30.00000000
+light_glow        = no
+light_lightmap            = yes
+light_lightmap_min_height = 0.50000000
+light_lightmap_max_height = 25.00000000
+light_lightmap_min_radius = 35.00000000
+light_lightmap_max_radius = 45.00000000
+light_lightmap_min_color  = 107, 73, 125
+light_lightmap_max_color  = 107, 73, 125
+
+[ppc_core_out01]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000040, -0.00000002
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+num_meshes   = 1
+mesh         = "Meshes/ppc_core_out01.mesh"
+;child       = "ppc_core_in.node"
+
+[ppc_core_in]
+type         = 3DOBJECT
+position     = 0.00000000, -0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/ppc_core_in.mesh"
+
+
+; Hierarchy dump:
+; Default 
+;   antimatterppc_l1
+;      ppc_core_out02
+;      hardware_light
+;   ppc_core_out01
+;      ppc_core_in

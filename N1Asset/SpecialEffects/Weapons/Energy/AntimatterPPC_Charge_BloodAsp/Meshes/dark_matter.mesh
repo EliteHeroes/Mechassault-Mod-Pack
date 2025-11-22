@@ -1,0 +1,12 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[mesh]
+name       = "dark_matter"
+type       = INDEXEDLIST
+vertices   = "dark_matter.geomVert"
+faces      = "dark_matter.geomFace"
+material   = "../Materials/antimatter.mat"

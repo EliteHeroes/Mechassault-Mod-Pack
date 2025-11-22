@@ -1,0 +1,12 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[mesh]
+name       = "AntiMatterPPC_Full_Fire_Flash2"
+type       = INDEXEDLIST
+vertices   = "PPC Full Fire L1 Flash2.geomVert"
+faces      = "PPC Full Fire L1 Flash2.geomFace"
+material   = "../Materials/AntiMatterPPC_Full_Fire_Flash.mat"

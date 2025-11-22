@@ -1,0 +1,82 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+[joint_luarm]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 2
+;child       = "basp_luarm.node"
+;child       = "joint_lgunabove.node"
+
+[basp_luarm]
+type         = 3DOBJECT
+position     = -0.78312612, 0.00138332, -0.07533229
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000004
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "basp_luarm.mesh"
+
+[joint_lgunabove]
+type         = NODE
+position     = -1.20800006, -0.77599972, -0.30399999
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 1
+;child       = "joint_lgun.node"
+
+[joint_lgun]
+type         = NODE
+position     = -0.00000009, -0.00000016, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "basp_linsidearm.node"
+;child       = "Effects.node"
+;child       = "basp_lgun.node"
+
+[basp_linsidearm]
+type         = 3DOBJECT
+position     = -0.06526361, -0.14801613, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000004
+scale        = 0.68000000, 0.68000000, 0.68000000
+num_children = 0
+num_meshes   = 1
+mesh         = "basp_linsidearm.mesh"
+
+[Effects]
+type         = NODE
+position     = 0.00000000, -0.34801613, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, -0.00000004
+rot_angle    = 3.14159274
+scale        = 1.00000000, 1.00000000, 0.99999994
+num_children = 0
+
+[basp_lgun]
+type         = 3DOBJECT
+position     = -0.05526361, -0.59001613, 0.83549553
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000004
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "basp_lgun.mesh"
+
+
+; Hierarchy dump:
+; joint_luarm
+;   basp_luarm
+;   joint_lgunabove
+;      joint_lgun
+;         basp_linsidearm
+;         Effects
+;         basp_lgun

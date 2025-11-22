@@ -9,7 +9,7 @@ This mod pack is a compilation of several different mods for the first Mechassau
 ### Pre-requisites
 
 * Need to acquire a copy of Mechassault. Either installed on a modded Xbox or on a PC. If you have an ISO-type file, make sure to convert it so you can directly access the contents of the game files.
-* You'll also need to download and install all of [Mechassault's DLC](https://digiex.net/threads/xbox-offline-xbox-live-downloadable-content-dlc-installers.675) for the best and complete experience.
+* You DO NOT need to install the Mechassault DLC, as the DLC features are included within the latest mod version.
 
 ### Installing
 
@@ -17,15 +17,14 @@ This mod pack is a compilation of several different mods for the first Mechassau
 2. Open your Mechassault game folder. For console, you can do this using an FTP program to connect a modded Xbox to a PC.
 3. Drag and drop all the files from inside the 'Mod Pack' folder into the Mechassault game folder, agreeing to replace the files.
 4. If necessary, you can now convert the game folder to an XISO format so emulators such as [Xemu](https://xemu.app) can read the new game data.
-5. And that's it! You'll now be able to select 'LAUNCH MODS' in the options menu of the game, or you can start the modded game directly with the new N1Launch.xbe
+5. And that's it! You'll now be able to select between the Modded version and Vanilla on start-up or you can switch versions in the options menu of the game.
 
 ### Help
 
 If the game isn't detecting the newly installed mods, here are some things you can try:
 
 * Make sure the files you placed inside the Mechassault game folder is in the correct place. The new files need to be directly along side the other game files. You'll receive a prompt to replace existing files if you've done this right. For example, you should be able to see a new folder called 'MGFs' next to 'Movie' inside the game folder.
-* If you're missing maps or mechs on the multiplayer select screen, you might not have installed all the DLC correctly. Start the DLC installer and check the list to verify all the options have been selected and installed.
-* If the game crashes or refusues to load certain maps or campaign missions, either your game files are corrupted or your copy of Mechssault is incomplete. 
+* If the game crashes or refuses to load certain maps or campaign missions, your copy of Mechssault may be incomplete, or your game files could be corrupted. Make sure to verify you have followed all the steps above correctly and have completed the pre-requisites.
 
 If you're still having any problems with installing, feel free to leave a message in the help section on the [MechDonald's Discord](https://discord.gg/yKpHC5EPzy)
 

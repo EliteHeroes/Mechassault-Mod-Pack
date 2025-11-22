@@ -1,0 +1,12 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[mesh]
+name       = "ppc_core_out01"
+type       = INDEXEDLIST
+vertices   = "ppc_core_out01.geomVert"
+faces      = "ppc_core_out01.geomFace"
+material   = "../Materials/antimatter.mat"

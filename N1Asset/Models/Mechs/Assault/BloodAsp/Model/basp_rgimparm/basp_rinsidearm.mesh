@@ -1,0 +1,12 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[mesh]
+name       = "basp_rinsidearm"
+type       = INDEXEDLIST
+vertices   = "basp_rinsidearm.geomVert"
+faces      = "basp_rinsidearm.geomFace"
+material   = "../Materials/Mech_Gimparm.mat"

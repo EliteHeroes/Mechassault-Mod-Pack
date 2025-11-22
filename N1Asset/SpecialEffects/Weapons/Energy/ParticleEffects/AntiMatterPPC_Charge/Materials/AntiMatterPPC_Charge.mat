@@ -1,0 +1,31 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[material]
+type       = BASE
+name           = "AntiMatterPPC_Charge"
+amb_color      = 0, 0, 0
+diff_color     = 0, 0, 0
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = none
+blending      = subtractive
+base             = "AntiMatterPPC_Charge.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+
+;animMaxFrameNum	  	= 8
+;animLoops		= -1
+;animBlendFrames		= 0
+;animRate		= .4 - .4
+;animPlaying		= true
+;animRandomStart		= 0
+
+

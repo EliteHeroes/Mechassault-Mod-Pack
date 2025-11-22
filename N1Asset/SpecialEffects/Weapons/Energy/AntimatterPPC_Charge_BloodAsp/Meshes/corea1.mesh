@@ -1,0 +1,12 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[mesh]
+name       = "corea1"
+type       = INDEXEDLIST
+vertices   = "dark_mattera4.geomVert"
+faces      = "dark_mattera4.geomFace"
+material   = "../Materials/core2.mat"

@@ -1,0 +1,53 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[AntiMatterPPC_Full_Fire]
+type         = NODE
+position     = 0.00037556, -0.00118766, 0.04276295
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 3
+;child       = "AntiMatterPPC_Full_Fire_Beam1.node"
+;child       = "AntiMatterPPC_Full_Fire_Beam2.node"
+;child       = "AntiMatterPPC_Full_Fire_Flash2.node"
+
+[AntiMatterPPC_Full_Fire_Beam1]
+type         = 3DOBJECT
+position     = -0.00065805, 0.06128740, 0.05800533
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000024
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AntiMatterPPC_Full_Fire_Beam1.mesh"
+
+[AntiMatterPPC_Full_Fire_Beam2]
+type         = 3DOBJECT
+position     = -0.00065805, 0.06128740, 0.05800533
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000024
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AntiMatterPPC_Full_Fire_Beam2.mesh"
+
+[AntiMatterPPC_Full_Fire_Flash2]
+type         = facing
+position     = 0.00937397, 0.01214231, 0.50057977
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000019
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/AntiMatterPPC_Full_Fire_Flash2.mesh"
+
+
+; Hierarchy dump:
+; AntiMatterPPC_Full_Fire
+;   AntiMatterPPC_Full_Fire_Beam1
+;   AntiMatterPPC_Full_Fire_Beam2
+;   AntiMatterPPC_Full_Fire_Flash2

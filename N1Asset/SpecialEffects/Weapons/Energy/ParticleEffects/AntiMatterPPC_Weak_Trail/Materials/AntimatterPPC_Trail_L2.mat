@@ -1,0 +1,23 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[material]
+type       = BASE
+name           = "AntimatterPPC_Trail_L2"
+amb_color      = 25, 25, 25
+diff_color     = 215, 186, 249
+selfillum_color= 215, 186, 249
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = none
+blending      = additive
+base             = "AntimatterPPC_Trail_L2.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+

@@ -1,0 +1,23 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[material]
+type       = BASE
+name           = "Footprint"
+amb_color      = 26, 26, 26
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = false
+shading       = gouraud
+blending      = alpha
+base             = "nov_footprint.tif"
+base_tiling        = U_CLAMP | V_CLAMP
+base_mipmapping  = yes
+base_mipmap_bias = -2
+
+

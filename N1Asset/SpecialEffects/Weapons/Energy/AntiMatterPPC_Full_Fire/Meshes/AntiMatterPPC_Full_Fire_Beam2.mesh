@@ -1,0 +1,12 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[mesh]
+name       = "PPC Full Fire L1 Beam2"
+type       = INDEXEDLIST
+vertices   = "PPC Full Fire L1 Beam2.geomVert"
+faces      = "PPC Full Fire L1 Beam2.geomFace"
+material   = "../Materials/PPC Full Fire L1 Beam.mat"

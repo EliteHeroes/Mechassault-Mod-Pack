@@ -1,0 +1,206 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[antimatter_ppc_bloodasp]
+type         = NODE
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.57150000, 0.57150000, 0.57150000
+num_children = 6
+;child       = "charge_geo.node"
+;child       = "hardware_light.node"
+;child       = "plasma_1_efx.node"
+;child       = "plasma_2_efx.node"
+;child       = "plasma_main1.node"
+;child       = "plasma_main2.node"
+
+[charge_geo]
+type         = 3DOBJECT
+position     = -2.92942429, -2.26761556, -3.22274590
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000004
+scale        = 1.00000000, 1.00000000, 1.00000000
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/charge_geo.mesh"
+
+[hardware_light]
+type         = LIGHT
+position     = 0.00158589, 0.00000000, 1.00847077
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.74978125, 1.74978137, 1.74978137
+num_children = 0
+light_type        = point
+light_on          = yes
+light_color       = 255, 255, 255
+light_radius      = 20.00000000
+light_glow        = no
+light_lightmap            = no
+
+[plasma_1_efx]
+type         = NODE
+position     = -0.00000053, 0.00000014, 0.64640224
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.74978125, 1.74978137, 1.74978137
+num_children = 0
+
+[plasma_2_efx]
+type         = NODE
+position     = -5.86189032, 0.00000014, 0.64640224
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.74978125, 1.74978137, 1.74978137
+num_children = 0
+
+[plasma_main1]
+type         = NODE
+position     = -0.00000053, 0.00000014, 0.62597519
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.74978125, 1.74978137, 1.74978137
+num_children = 5
+;child       = "dark_matter.node"
+;child       = "dark_mattera3.node"
+;child       = "dark_matter0.node"
+;child       = "dark_mattera4.node"
+;child       = "corea1.node"
+
+[dark_matter]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_matter.mesh"
+
+[dark_mattera3]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00935182
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_mattera3.mesh"
+
+[dark_matter0]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_matter0.mesh"
+
+[dark_mattera4]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00935182
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_mattera4.mesh"
+
+[corea1]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00467591
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41054669, 0.41054669, 0.41054669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/corea1.mesh"
+
+[plasma_main2]
+type         = NODE
+position     = -5.86189032, 0.00000014, 0.62597519
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 1.74978125, 1.74978137, 1.74978137
+num_children = 5
+;child       = "dark_matter01.node"
+;child       = "dark_matterb3.node"
+;child       = "dark_matter2.node"
+;child       = "dark_matterb4.node"
+;child       = "coreb1.node"
+
+[dark_matter01]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_matter01.mesh"
+
+[dark_matterb3]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.01277474
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_matterb3.mesh"
+
+[dark_matter2]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00000000
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_matter2.mesh"
+
+[dark_matterb4]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.01277474
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41954669, 0.41954669, 0.41954669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/dark_matterb4.mesh"
+
+[coreb1]
+type         = 3DOBJECT
+position     = 0.00000000, 0.00000000, 0.00638737
+rot_axis     = -1.00000000, 0.00000000, 0.00000000
+rot_angle    = 0.00000000
+scale        = 0.41054669, 0.41054669, 0.41054669
+num_children = 0
+num_meshes   = 1
+mesh         = "Meshes/coreb1.mesh"
+
+
+; Hierarchy dump:
+; Default 
+;   antimatter_ppc_bloodasp
+;   charge_geo
+;   hardware_light
+;   plasma_1_efx
+;   plasma_2_efx
+;   plasma_main1
+;      dark_matter
+;      dark_mattera3
+;      dark_matter0
+;      dark_mattera4
+;      corea1
+;   plasma_main2
+;      dark_matter01
+;      dark_matterb3
+;      dark_matter2
+;      dark_matterb4
+;      coreb1

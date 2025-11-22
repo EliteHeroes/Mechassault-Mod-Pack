@@ -1,0 +1,23 @@
+[fileinfo]
+file_version    = 2
+;Created by EliteAssault
+;Created in 2025
+
+
+[material]
+type       = BASE
+name           = "ppc_weak_l1"
+amb_color      = 83, 30, 41
+diff_color     = 255, 255, 255
+selfillum_color= 0, 0, 0
+shininess     = 0
+opacity       = 1
+two_sided     = true
+shading       = none
+blending      = additive
+base             = "Wpn_LaserGlow3_purple.tif"
+base_tiling        = U_WRAP | V_WRAP
+base_mipmapping  = yes
+base_mipmap_bias = 0.0
+
+
